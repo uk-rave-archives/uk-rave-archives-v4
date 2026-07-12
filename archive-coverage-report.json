@@ -1,0 +1,28 @@
+{
+  "artists": 178,
+  "publicArtists": 118,
+  "events": 33,
+  "flyers": 84,
+  "eventsByType": {
+    "event": 5,
+    "all-nighter": 4,
+    "radio": 1,
+    "club-night": 18,
+    "reunion": 1,
+    "valentines": 1,
+    "album-launch": 1,
+    "halloween": 1,
+    "acid-house": 1
+  },
+  "flyersByYear": {
+    "1989": 2,
+    "1990": 1,
+    "1991": 7,
+    "1992": 6,
+    "1993": 4,
+    "1994": 1,
+    "1995": 4
+  },
+  "missingContentItems": 365,
+  "duplicateNameGroups": 4
+}

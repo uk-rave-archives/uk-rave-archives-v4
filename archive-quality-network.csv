@@ -1,0 +1,366 @@
+type,id,name,issue
+artist,brisk,Brisk,Missing verified photo
+artist,brisk,Brisk,Missing biography
+artist,carl-cox,Carl Cox,Missing verified photo
+artist,carl-cox,Carl Cox,Missing biography
+artist,clarkee,Clarkee,Missing verified photo
+artist,clarkee,Clarkee,Missing biography
+artist,dougal,Dougal,Missing verified photo
+artist,dougal,Dougal,Missing biography
+artist,easy-d,Easy D,Missing verified photo
+artist,easy-d,Easy D,Missing biography
+artist,easygroove,Easygroove,Missing verified photo
+artist,easygroove,Easygroove,Missing biography
+artist,ellis-dee,Ellis Dee,Missing verified photo
+artist,ellis-dee,Ellis Dee,Missing biography
+artist,fabio,Fabio,Missing verified photo
+artist,fabio,Fabio,Missing biography
+artist,frankie-valentine,Frankie Valentine,Missing verified photo
+artist,frankie-valentine,Frankie Valentine,Missing biography
+artist,jumping-jack-frost,Jumping Jack Frost,Missing verified photo
+artist,jumping-jack-frost,Jumping Jack Frost,Missing biography
+artist,ltj-bukem,LTJ Bukem,Public profile has no connected archive evidence
+artist,man-parris,Man Parris,Missing verified photo
+artist,man-parris,Man Parris,Missing biography
+artist,mc-det,MC Det,Public profile has no connected archive evidence
+artist,mickey-finn,Mickey Finn,Missing verified photo
+artist,mickey-finn,Mickey Finn,Missing biography
+artist,paul-trouble-anderson,Paul Trouble Anderson,Missing verified photo
+artist,paul-trouble-anderson,Paul Trouble Anderson,Missing biography
+artist,pilgrim,Pilgrim,Missing verified photo
+artist,pilgrim,Pilgrim,Missing biography
+artist,roni-size,Roni Size,Public profile has no connected archive evidence
+artist,simon-bassline-smith,Simon Bassline Smith,Missing verified photo
+artist,simon-bassline-smith,Simon Bassline Smith,Missing biography
+artist,swanee,Swanee,Missing verified photo
+artist,swanee,Swanee,Missing biography
+artist,vibes,Vibes,Missing verified photo
+artist,vibes,Vibes,Missing biography
+artist,elliot,Elliot,Missing verified photo
+artist,elliot,Elliot,Missing biography
+artist,marga,Marga,Missing verified photo
+artist,marga,Marga,Missing biography
+artist,bad-boy-t,Bad Boy T,Missing verified photo
+artist,bad-boy-t,Bad Boy T,Missing biography
+artist,shock-c,Shock C,Missing verified photo
+artist,shock-c,Shock C,Missing biography
+artist,freek-bros,Freek Bros,Missing verified photo
+artist,freek-bros,Freek Bros,Missing biography
+artist,mrb,MRB,Missing verified photo
+artist,mrb,MRB,Missing biography
+artist,dj-lisa,DJ Lisa,Missing verified photo
+artist,dj-lisa,DJ Lisa,Missing biography
+artist,tango,Tango,Missing verified photo
+artist,tango,Tango,Missing biography
+artist,top-buzz,Top Buzz,Missing verified photo
+artist,top-buzz,Top Buzz,Missing biography
+artist,dj-skool-e,DJ Skool-E,Missing verified photo
+artist,dj-skool-e,DJ Skool-E,Missing biography
+artist,devastation,Devastation,Missing verified photo
+artist,devastation,Devastation,Missing biography
+artist,ll-dj,LL DJ,Missing verified photo
+artist,ll-dj,LL DJ,Missing biography
+artist,boing,Boing,Missing verified photo
+artist,boing,Boing,Missing biography
+artist,stevee-k,Stevee K,Missing verified photo
+artist,stevee-k,Stevee K,Missing biography
+artist,cas-roc,Cas Roc,Missing verified photo
+artist,cas-roc,Cas Roc,Missing biography
+artist,christopher-stone,Christopher Stone,Missing verified photo
+artist,christopher-stone,Christopher Stone,Missing biography
+artist,mc-vocal,MC Vocal,Missing verified photo
+artist,mc-vocal,MC Vocal,Missing biography
+artist,mc-natz,MC Natz,Missing verified photo
+artist,mc-natz,MC Natz,Missing biography
+artist,mc-dug-e,MC Dug-E,Missing verified photo
+artist,mc-dug-e,MC Dug-E,Missing biography
+artist,jd-walker,JD Walker,Missing verified photo
+artist,jd-walker,JD Walker,Missing biography
+artist,scrapy-banton,Scrapy Banton,Missing verified photo
+artist,scrapy-banton,Scrapy Banton,Missing biography
+artist,jay-stonghman,Jay Stonghman,Missing verified photo
+artist,jay-stonghman,Jay Stonghman,Missing biography
+artist,dominic,Dominic,Missing verified photo
+artist,dominic,Dominic,Missing biography
+artist,gary-hughes,Gary Hughes,Missing verified photo
+artist,gary-hughes,Gary Hughes,Missing biography
+artist,gary-gluke,Gary Gluke,Missing verified photo
+artist,gary-gluke,Gary Gluke,Missing biography
+artist,danny,Danny,Missing verified photo
+artist,danny,Danny,Missing biography
+artist,scottie,Scottie,Missing verified photo
+artist,scottie,Scottie,Missing biography
+artist,horace,Horace,Missing verified photo
+artist,horace,Horace,Missing biography
+artist,mole,Mole,Missing verified photo
+artist,mole,Mole,Missing biography
+artist,agent-b,Agent B,Missing verified photo
+artist,agent-b,Agent B,Missing biography
+artist,andy,Andy,Missing verified photo
+artist,andy,Andy,Missing biography
+artist,fent-b,Fent B,Missing verified photo
+artist,fent-b,Fent B,Missing biography
+artist,dave-patterson,Dave Patterson,Missing verified photo
+artist,dave-patterson,Dave Patterson,Missing biography
+artist,robert,Robert,Missing verified photo
+artist,robert,Robert,Missing biography
+artist,scott-davis,Scott Davis,Missing verified photo
+artist,scott-davis,Scott Davis,Missing biography
+artist,urban-joe,Urban Joe,Missing verified photo
+artist,urban-joe,Urban Joe,Missing biography
+artist,stu-allan,Stu Allan,Missing verified photo
+artist,stu-allan,Stu Allan,Missing biography
+artist,daz-willot,Daz Willot,Missing verified photo
+artist,daz-willot,Daz Willot,Missing biography
+artist,exl,EXL,Missing verified photo
+artist,exl,EXL,Missing biography
+artist,ratpack,Ratpack,Missing verified photo
+artist,ratpack,Ratpack,Missing biography
+artist,fat-controller,Fat Controller,Missing verified photo
+artist,fat-controller,Fat Controller,Missing biography
+artist,ralf-ep,Ralf EP,Missing verified photo
+artist,ralf-ep,Ralf EP,Missing biography
+artist,flo,Flo,Missing verified photo
+artist,flo,Flo,Missing biography
+artist,carl-williams,Carl Williams,Missing verified photo
+artist,carl-williams,Carl Williams,Missing biography
+artist,fallout,Fallout,Missing verified photo
+artist,fallout,Fallout,Missing biography
+artist,andy-c,Andy C,Missing verified photo
+artist,andy-c,Andy C,Missing biography
+artist,rude-boy-007,Rude Boy 007,Missing verified photo
+artist,rude-boy-007,Rude Boy 007,Missing biography
+artist,radical-kryme,Radical Kryme,Missing verified photo
+artist,radical-kryme,Radical Kryme,Missing biography
+artist,ade-t,Ade T,Missing verified photo
+artist,ade-t,Ade T,Missing biography
+artist,revolver,Revolver,Missing verified photo
+artist,revolver,Revolver,Missing biography
+artist,sasha,Sasha,Missing verified photo
+artist,sasha,Sasha,Missing biography
+artist,dave-seaman,Dave Seaman,Missing verified photo
+artist,dave-seaman,Dave Seaman,Missing biography
+artist,mr-clubman,Mr Clubman,Missing verified photo
+artist,mr-clubman,Mr Clubman,Missing biography
+artist,mc-e-mix,MC E-Mix,Missing verified photo
+artist,mc-e-mix,MC E-Mix,Missing biography
+artist,tyger,Tyger,Missing verified photo
+artist,tyger,Tyger,Missing biography
+artist,dj-milky,DJ Milky,Missing verified photo
+artist,dj-milky,DJ Milky,Missing biography
+artist,bassman,Bassman,Missing verified photo
+artist,bassman,Bassman,Missing biography
+artist,craig-walsh,Craig Walsh,Missing verified photo
+artist,craig-walsh,Craig Walsh,Missing biography
+artist,brandon-block,Brandon Block,Missing verified photo
+artist,brandon-block,Brandon Block,Missing biography
+artist,pete-couzens,Pete Couzens,Missing verified photo
+artist,pete-couzens,Pete Couzens,Missing biography
+artist,al-mckenzie,Al McKenzie,Missing verified photo
+artist,al-mckenzie,Al McKenzie,Missing biography
+artist,jeremy-healy,Jeremy Healy,Missing verified photo
+artist,jeremy-healy,Jeremy Healy,Missing biography
+artist,danny-rampling,Danny Rampling,Missing verified photo
+artist,danny-rampling,Danny Rampling,Missing biography
+artist,scott-braithwaite,Scott Braithwaite,Missing verified photo
+artist,scott-braithwaite,Scott Braithwaite,Missing biography
+artist,diy,DIY,Missing verified photo
+artist,diy,DIY,Missing biography
+artist,loftgroover,Loftgroover,Missing verified photo
+artist,loftgroover,Loftgroover,Missing biography
+artist,mark-eg,Mark EG,Missing verified photo
+artist,mark-eg,Mark EG,Missing biography
+artist,syoshi,Syoshi,Missing verified photo
+artist,syoshi,Syoshi,Missing biography
+artist,giles,Giles,Missing verified photo
+artist,giles,Giles,Missing biography
+artist,nick-w,Nick W,Missing verified photo
+artist,nick-w,Nick W,Missing biography
+artist,dzire,D.Zire,Missing verified photo
+artist,dzire,D.Zire,Missing biography
+artist,nipper,Nipper,Missing verified photo
+artist,nipper,Nipper,Missing biography
+artist,fergus,Fergus,Missing verified photo
+artist,fergus,Fergus,Missing biography
+artist,pete-tyle,Pete Tyle,Missing verified photo
+artist,pete-tyle,Pete Tyle,Missing biography
+artist,paul-stirling,Paul Stirling,Missing verified photo
+artist,paul-stirling,Paul Stirling,Missing biography
+artist,toney-grimley,Toney Grimley,Missing verified photo
+artist,toney-grimley,Toney Grimley,Missing biography
+artist,john-pierson,John Pierson,Missing verified photo
+artist,john-pierson,John Pierson,Missing biography
+artist,dmitry-brill,Dmitry Brill,Missing verified photo
+artist,dmitry-brill,Dmitry Brill,Missing biography
+artist,towa-tei,Towa Tei,Missing verified photo
+artist,towa-tei,Towa Tei,Missing biography
+artist,princess-julia,Princess Julia,Missing verified photo
+artist,princess-julia,Princess Julia,Missing biography
+artist,jeffrey-hinton,Jeffrey Hinton,Missing verified photo
+artist,jeffrey-hinton,Jeffrey Hinton,Missing biography
+artist,harvey,Harvey,Missing verified photo
+artist,harvey,Harvey,Missing biography
+artist,luke-howard,Luke Howard,Missing verified photo
+artist,luke-howard,Luke Howard,Missing biography
+artist,lisa-loud,Lisa Loud,Missing verified photo
+artist,lisa-loud,Lisa Loud,Missing biography
+artist,greg-fenton,Greg Fenton,Missing verified photo
+artist,greg-fenton,Greg Fenton,Missing biography
+artist,paul-harris,Paul Harris,Missing verified photo
+artist,paul-harris,Paul Harris,Missing biography
+artist,steve-sawa,Steve Sawa,Missing verified photo
+artist,steve-sawa,Steve Sawa,Missing biography
+artist,colin-faver,Colin Faver,Missing verified photo
+artist,colin-faver,Colin Faver,Missing biography
+artist,evil-eddie-richards,Evil Eddie Richards,Missing verified photo
+artist,evil-eddie-richards,Evil Eddie Richards,Missing biography
+artist,dj-jd,DJ JD,Missing verified photo
+artist,dj-jd,DJ JD,Missing biography
+artist,dj-face,DJ Face,Missing verified photo
+artist,dj-face,DJ Face,Missing biography
+artist,dms,DMS,Missing verified photo
+artist,dms,DMS,Missing biography
+artist,mc-nathan,MC Nathan,Missing verified photo
+artist,mc-nathan,MC Nathan,Missing biography
+artist,frankie-foncett,Frankie Foncett,Missing verified photo
+artist,frankie-foncett,Frankie Foncett,Missing biography
+artist,aj-in-the-mix,AJ in the Mix,Missing verified photo
+artist,aj-in-the-mix,AJ in the Mix,Missing biography
+flyer,flyer-001,Raindance,No linked lineup
+flyer,flyer-002,Showtime 91,No linked lineup
+flyer,flyer-003,Easy Lee Memorial Dance,Missing confirmed year
+flyer,flyer-003,Easy Lee Memorial Dance,No linked lineup
+flyer,flyer-004,Yabba-Dabba-II,Missing confirmed year
+flyer,flyer-004,Yabba-Dabba-II,No linked lineup
+flyer,flyer-005,Wonderland,Missing confirmed year
+flyer,flyer-005,Wonderland,No linked lineup
+flyer,flyer-006,Insomnia,No linked lineup
+flyer,flyer-007,Perception,No linked lineup
+flyer,flyer-008,Monkey Island,No linked lineup
+flyer,flyer-009,Freedom,Missing confirmed year
+flyer,flyer-009,Freedom,No linked lineup
+flyer,flyer-010,Hypnosis,Missing confirmed year
+flyer,flyer-010,Hypnosis,No linked lineup
+flyer,flyer-011,Elevation,No linked lineup
+flyer,flyer-012,Fantasy FM,No linked lineup
+flyer,flyer-013,Badance / Batcave,No linked lineup
+flyer,flyer-014,Hardcore,No linked lineup
+flyer,flyer-015,Hyperaktive,No linked lineup
+flyer,flyer-016,Archive Flyer,Missing confirmed year
+flyer,flyer-016,Archive Flyer,No linked lineup
+flyer,flyer-017,Archive Flyer,Missing confirmed year
+flyer,flyer-017,Archive Flyer,No linked lineup
+flyer,flyer-018,Archive Flyer,Missing confirmed year
+flyer,flyer-018,Archive Flyer,No linked lineup
+flyer,flyer-019,Archive Flyer,Missing confirmed year
+flyer,flyer-019,Archive Flyer,No linked lineup
+flyer,flyer-020,Archive Flyer,Missing confirmed year
+flyer,flyer-020,Archive Flyer,No linked lineup
+flyer,flyer-021,Archive Flyer,Missing confirmed year
+flyer,flyer-021,Archive Flyer,No linked lineup
+flyer,flyer-022,Archive Flyer,Missing confirmed year
+flyer,flyer-022,Archive Flyer,No linked lineup
+flyer,flyer-023,Archive Flyer,Missing confirmed year
+flyer,flyer-023,Archive Flyer,No linked lineup
+flyer,flyer-024,Archive Flyer,Missing confirmed year
+flyer,flyer-024,Archive Flyer,No linked lineup
+flyer,flyer-025,Archive Flyer,Missing confirmed year
+flyer,flyer-025,Archive Flyer,No linked lineup
+flyer,flyer-026,Archive Flyer,Missing confirmed year
+flyer,flyer-026,Archive Flyer,No linked lineup
+flyer,flyer-027,Archive Flyer,Missing confirmed year
+flyer,flyer-027,Archive Flyer,No linked lineup
+flyer,flyer-028,Archive Flyer,Missing confirmed year
+flyer,flyer-028,Archive Flyer,No linked lineup
+flyer,flyer-029,Archive Flyer,Missing confirmed year
+flyer,flyer-029,Archive Flyer,No linked lineup
+flyer,flyer-030,Archive Flyer,Missing confirmed year
+flyer,flyer-030,Archive Flyer,No linked lineup
+flyer,flyer-031,Archive Flyer,Missing confirmed year
+flyer,flyer-031,Archive Flyer,No linked lineup
+flyer,flyer-032,Archive Flyer,Missing confirmed year
+flyer,flyer-032,Archive Flyer,No linked lineup
+flyer,flyer-033,Archive Flyer,Missing confirmed year
+flyer,flyer-033,Archive Flyer,No linked lineup
+flyer,flyer-034,Archive Flyer,Missing confirmed year
+flyer,flyer-034,Archive Flyer,No linked lineup
+flyer,flyer-035,Archive Flyer,Missing confirmed year
+flyer,flyer-035,Archive Flyer,No linked lineup
+flyer,flyer-036,Big Bad Head,Missing confirmed year
+flyer,flyer-036,Big Bad Head,No linked lineup
+flyer,flyer-037,The Head,Missing confirmed year
+flyer,flyer-037,The Head,No linked lineup
+flyer,flyer-038,Pleasuredome,Missing confirmed year
+flyer,flyer-038,Pleasuredome,No linked lineup
+flyer,flyer-039,Slammin' Vinyl,Missing confirmed year
+flyer,flyer-039,Slammin' Vinyl,No linked lineup
+flyer,flyer-040,Wonderland,Missing confirmed year
+flyer,flyer-040,Wonderland,No linked lineup
+flyer,flyer-041,Inspiration,Missing confirmed year
+flyer,flyer-041,Inspiration,No linked lineup
+flyer,flyer-042,Destiny,Missing confirmed year
+flyer,flyer-042,Destiny,No linked lineup
+flyer,flyer-043,Showtime '91,No linked lineup
+flyer,flyer-044,Showtime '91,No linked lineup
+flyer,flyer-045,Slammin' Vinyl,Missing confirmed year
+flyer,flyer-045,Slammin' Vinyl,No linked lineup
+flyer,flyer-046,Ministry of Sound,Missing confirmed year
+flyer,flyer-046,Ministry of Sound,No linked lineup
+flyer,flyer-047,Ministry of Sound,Missing confirmed year
+flyer,flyer-047,Ministry of Sound,No linked lineup
+flyer,flyer-048,Ministry of Sound,Missing confirmed year
+flyer,flyer-048,Ministry of Sound,No linked lineup
+flyer,flyer-049,Rhythm Station,Missing confirmed year
+flyer,flyer-049,Rhythm Station,No linked lineup
+flyer,flyer-050,The Mousetrap,Missing confirmed year
+flyer,flyer-050,The Mousetrap,No linked lineup
+flyer,flyer-051,Equinox,Missing confirmed year
+flyer,flyer-051,Equinox,No linked lineup
+flyer,flyer-052,Rave Event,Missing confirmed year
+flyer,flyer-052,Rave Event,No linked lineup
+flyer,flyer-053,Rave Event,Missing confirmed year
+flyer,flyer-053,Rave Event,No linked lineup
+flyer,flyer-054,Rave Event,Missing confirmed year
+flyer,flyer-054,Rave Event,No linked lineup
+flyer,flyer-055,Ministry of Sound,Missing confirmed year
+flyer,flyer-055,Ministry of Sound,No linked lineup
+flyer,flyer-057,Rave 99.3 FM — Saturday 10 November,Missing confirmed year
+flyer,flyer-057,Rave 99.3 FM — Saturday 10 November,No linked lineup
+flyer,flyer-058,Censored at Langtrys,Missing confirmed year
+flyer,flyer-060,Cream at The Waterfront,Missing confirmed year
+flyer,flyer-060,Cream at The Waterfront,No linked lineup
+flyer,flyer-061,Love — Jooce III,Missing confirmed year
+flyer,flyer-061,Love — Jooce III,No linked lineup
+flyer,flyer-064,Fun Factory — Happy Hardcore,Missing confirmed year
+flyer,flyer-065,The Keyhole,Missing confirmed year
+flyer,flyer-065,The Keyhole,No linked lineup
+flyer,flyer-067,Essence at The Hangar,Missing confirmed year
+flyer,flyer-067,Essence at The Hangar,No linked lineup
+flyer,flyer-068,Slammin' Vinyl Part IV — The Payback,Missing confirmed year
+flyer,flyer-068,Slammin' Vinyl Part IV — The Payback,No linked lineup
+flyer,flyer-069,The Pleasuredome — Dance Your Ass Off,Missing confirmed year
+flyer,flyer-069,The Pleasuredome — Dance Your Ass Off,No linked lineup
+flyer,flyer-070,The Pleasuredome — Toe-Sucker,Missing confirmed year
+flyer,flyer-070,The Pleasuredome — Toe-Sucker,No linked lineup
+flyer,flyer-076,Mustard,Missing confirmed year
+flyer,flyer-077,Wild at Heart,Missing confirmed year
+flyer,flyer-077,Wild at Heart,No linked lineup
+flyer,flyer-079,Linford Studios Location Map,Missing confirmed year
+flyer,flyer-079,Linford Studios Location Map,No linked lineup
+flyer,flyer-080,This Little Piggy,Missing confirmed year
+flyer,flyer-082,Fun House Promotions — Equinox,Missing confirmed year
+flyer,flyer-082,Fun House Promotions — Equinox,No linked lineup
+flyer,flyer-083,The Pleasuredome — 8 August,Missing confirmed year
+flyer,flyer-083,The Pleasuredome — 8 August,No linked lineup
+event,tazzmania-1996-09-27,Tazzmania,Missing confirmed venue
+event,tazzmania-valentines-ball-1997,Tazzmania Valentines Ball,Missing confirmed venue
+event,dance-planet-detonator-ix-1995,Dance Planet Detonator IX,Missing confirmed venue
+event,kiss-100-hixxy-dougal-1997,Kiss 100 FM — Hixxy & Dougal,Missing confirmed venue
+event,rave-99-3-fm-saturday-10-november-date-review,Rave 99.3 FM — Saturday 10 November,Missing confirmed venue
+event,love-jooce-iii-date-review,Love — Jooce III,Missing confirmed venue
+event,revisited-1995,Revisited,Missing confirmed venue
+event,fun-factory-happy-hardcore-date-review,Fun Factory — Happy Hardcore,Missing confirmed venue
+event,the-keyhole-date-review,The Keyhole,Missing confirmed venue
+event,hardcore-you-know-the-score-1995,Hardcore — You Know The Score,Missing confirmed venue
+event,wild-at-heart-date-review,Wild at Heart,Missing confirmed venue
+event,batdance-1989,Batdance,Missing confirmed venue
