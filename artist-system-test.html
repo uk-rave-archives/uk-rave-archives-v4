@@ -1,0 +1,12 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Artist Data Test</title>
+<style>body{font:16px Arial;background:#111;color:#eee;padding:30px}pre{white-space:pre-wrap;background:#000;padding:20px;border:1px solid #555}.ok{color:#ffc400}.bad{color:#ff6b6b}</style>
+<h1>Artist Data Test</h1><pre id="result">Running validation…</pre>
+<script src="artists-data.js"></script><script src="artist-data-validator.js"></script>
+<script>
+const v=window.BTOS_ARTIST_VALIDATION;
+document.querySelector("#result").innerHTML =
+  `Records: ${v.total}\nPublic test profiles: ${v.public}\nStaged profiles: ${v.staged}\n\n` +
+  (v.errors.length ? `<span class="bad">${v.errors.join("\n")}</span>` : `<span class="ok">Validation passed. Locked DJ page layout was not regenerated.</span>`);
+</script>

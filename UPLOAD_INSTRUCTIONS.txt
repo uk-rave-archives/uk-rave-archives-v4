@@ -1,0 +1,14 @@
+UK Rave Archives v1.0.4 — Simple GitHub Upload
+
+This version has the homepage CSS embedded directly inside index.html.
+
+Minimum upload:
+- index.html
+
+Steps:
+1. Upload/replace index.html in the repository root.
+2. Commit changes.
+3. Wait 1–2 minutes.
+4. Refresh the live site.
+
+You do not need to upload assets/css/ukra-portal.css for the homepage styling to work.
