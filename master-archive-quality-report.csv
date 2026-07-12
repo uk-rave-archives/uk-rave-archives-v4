@@ -1,0 +1,87 @@
+severity,collection,id,issue
+info,artists,r-title,Staged artist missing image
+info,artists,acid-house-and-early-rave,Staged artist missing image
+info,artists,aubrey,Staged artist missing image
+info,artists,bass-generator,Staged artist missing image
+info,artists,brisk,Staged artist missing image
+info,artists,carl-cox,Staged artist missing image
+info,artists,clarkee,Staged artist missing image
+info,artists,colin-dale,Staged artist missing image
+info,artists,complete-exhibits,Staged artist missing image
+info,artists,criminal,Staged artist missing image
+info,artists,d-m-s,Staged artist missing image
+info,artists,da-posse,Staged artist missing image
+info,artists,dj-directory,Staged artist missing image
+info,artists,dj-lime,Staged artist missing image
+info,artists,dj-seduction,Staged artist missing image
+info,artists,dj-ss,Staged artist missing image
+info,artists,dougal,Staged artist missing image
+info,artists,dr-s-gachet,Staged artist missing image
+info,artists,drum-and-bass-and-happy-hardcore,Staged artist missing image
+info,artists,easy-d,Staged artist missing image
+info,artists,easygroove,Staged artist missing image
+info,artists,eddie-richards,Staged artist missing image
+info,artists,ellis-dee,Staged artist missing image
+info,artists,evil-o,Staged artist missing image
+info,artists,fabio,Staged artist missing image
+info,artists,face,Staged artist missing image
+info,artists,follow-the-connections,Staged artist missing image
+info,artists,force-and-styles,Staged artist missing image
+info,artists,frankie-bones,Staged artist missing image
+info,artists,frankie-valentine,Staged artist missing image
+info,artists,hardcore-and-jungle,Staged artist missing image
+info,artists,hixxy,Staged artist missing image
+info,artists,hypa-hyper,Staged artist missing image
+info,artists,jumping-jack-frost,Staged artist missing image
+info,artists,kenny-ken,Staged artist missing image
+info,artists,krome,Staged artist missing image
+info,artists,linked-flyers,Staged artist missing image
+info,artists,m-zone,Staged artist missing image
+info,artists,man-parris,Staged artist missing image
+info,artists,mc-energy,Staged artist missing image
+info,artists,mc-fearless,Staged artist missing image
+info,artists,mc-gq,Staged artist missing image
+info,artists,mc-magika,Staged artist missing image
+info,artists,mc-ribbz,Staged artist missing image
+info,artists,mc-sharkey,Staged artist missing image
+info,artists,mc-storm,Staged artist missing image
+info,artists,mc-whizzkid,Staged artist missing image
+info,artists,mickey-finn,Staged artist missing image
+info,artists,mikey-b,Staged artist missing image
+info,artists,moose,Staged artist missing image
+info,artists,new-generations,Staged artist missing image
+info,artists,nexus-21,Staged artist missing image
+info,artists,nicky-b,Staged artist missing image
+info,artists,nicky-blackmarket,Staged artist missing image
+info,artists,paul-trouble-anderson,Staged artist missing image
+info,artists,pilgrim,Staged artist missing image
+info,artists,quadrophonia,Staged artist missing image
+info,artists,randall,Staged artist missing image
+info,artists,rap,Staged artist missing image
+info,artists,rat-pack,Staged artist missing image
+info,artists,ratty,Staged artist missing image
+info,artists,ray-keith,Staged artist missing image
+info,artists,rhythm-doctor,Staged artist missing image
+info,artists,richie-fingers,Staged artist missing image
+info,artists,seduction,Staged artist missing image
+info,artists,simon-bassline-smith,Staged artist missing image
+info,artists,slipmatt,Staged artist missing image
+info,artists,spice,Staged artist missing image
+info,artists,stacey,Staged artist missing image
+info,artists,stuart-banks,Staged artist missing image
+info,artists,swane,Staged artist missing image
+info,artists,swanee,Staged artist missing image
+info,artists,sy,Staged artist missing image
+info,artists,t99,Staged artist missing image
+info,artists,the-prodigy,Staged artist missing image
+info,artists,vibes,Staged artist missing image
+info,artists,zero-b,Staged artist missing image
+warning,videos,oFqZQbxiyVY,Missing archive year
+warning,videos,XDMSX--9akg,No artist relationship
+warning,videos,EIu28VEQ42I,No artist relationship
+warning,videos,qdy8oTX0OKA,No artist relationship
+warning,videos,chRFjPPoXgY,No artist relationship
+error,videos,YPdiDExbxJE,Broken reference to artists:demo
+error,artists,demo,Relationship index references missing source
+error,videos,oFqZQbxiyVY,Broken reference to artists:colin-bell
+error,artists,colin-bell,Relationship index references missing source

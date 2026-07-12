@@ -1,0 +1,23 @@
+:root{color-scheme:dark;--yellow:#ffd400;--black:#050505}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;background:var(--black)}
+body{margin:0;background:#050505;color:#fff;font-family:Arial,Helvetica,sans-serif;overflow-x:hidden}
+.skip-link{position:fixed;z-index:1000;left:1rem;top:-5rem;background:#fff;color:#000;padding:.8rem 1rem;font-weight:800;text-decoration:none}
+.skip-link:focus{top:1rem}
+.museum-poster{position:relative;width:min(100%,1024px);margin:0 auto;background:#000;line-height:0;isolation:isolate}
+.museum-poster__image{display:block;width:100%;height:auto;user-select:none;-webkit-user-drag:none}
+.hotspots,.hotspot{position:absolute;inset:0;pointer-events:none}
+.hotspots a,.hotspot{position:absolute;left:calc(var(--x)*1%);top:calc(var(--y)*1%);width:calc(var(--w)*1%);height:calc(var(--h)*1%);pointer-events:auto;border:1px solid transparent;text-decoration:none;border-radius:3px}
+.hotspots a:hover,.hotspot:hover{border-color:rgba(255,212,0,.9);background:rgba(255,212,0,.08);box-shadow:0 0 0 2px rgba(0,0,0,.4),0 0 24px rgba(255,212,0,.25)}
+.hotspots a:focus-visible,.hotspot:focus-visible{outline:3px solid #fff;outline-offset:2px;background:rgba(255,212,0,.14)}
+.mobile-actions{display:none}
+@media (min-width:1025px){body{background:radial-gradient(circle at top,#1a1a1a 0,#050505 54%);padding:0 0 3rem}.museum-poster{box-shadow:0 0 80px rgba(0,0,0,.95)}}
+@media (max-width:720px){
+  body{padding-bottom:3.7rem}
+  .museum-poster{width:100%}
+  .hotspots--nav{display:none}
+  .mobile-actions{position:fixed;z-index:50;left:0;right:0;bottom:0;display:grid;grid-template-columns:repeat(4,1fr);background:rgba(5,5,5,.96);border-top:1px solid rgba(255,212,0,.45);backdrop-filter:blur(12px)}
+  .mobile-actions a{display:flex;align-items:center;justify-content:center;min-height:3.7rem;color:#fff;text-decoration:none;text-transform:uppercase;font-size:.75rem;font-weight:900;letter-spacing:.05em}
+  .mobile-actions a:hover,.mobile-actions a:focus-visible{color:var(--yellow);background:#151515}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

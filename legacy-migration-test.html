@@ -1,0 +1,24 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Legacy Archive Migration Test</title>
+<style>
+body{font:16px Arial;background:#080808;color:#eee;padding:30px}
+h1{color:#ffc400}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.card{padding:18px;background:#111;border:1px solid #444}.card b{display:block;color:#ffc400;font-size:28px}
+a{color:#ffc400}
+</style>
+<h1>Older Archive Migration</h1>
+<div class="grid" id="stats"></div>
+<p><a href="packs.html?pack=helter-skelter-milwaukees-1991">Test migrated Helter Skelter audio and DJ links →</a></p>
+<script>
+fetch("legacy-migration-report.json").then(r=>r.json()).then(x=>{
+ document.querySelector("#stats").innerHTML=[
+  ["Older source folders",x.oldRootsScanned.length],
+  ["Names found",x.artistNamesFound],
+  ["New artist records",x.newArtistRecordsAdded],
+  ["Total artist records",x.totalArtistRecords],
+  ["Direct audio files",x.directArchiveAudioFilesFound],
+  ["Tape-pack records",x.totalTapePackRecords]
+ ].map(v=>`<div class="card"><b>${v[1]}</b>${v[0]}</div>`).join("");
+});
+</script>

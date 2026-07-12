@@ -1,0 +1,34 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Master Archive Admin</title>
+<style>
+:root{--yellow:#ffc400}
+body{margin:0;background:#080808;color:#eee;font:15px Arial;padding:28px}
+h1,h2{color:var(--yellow)}.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+.stat{padding:18px;background:#111;border:1px solid #444}.stat b{display:block;font-size:30px;color:var(--yellow)}
+.tools{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0}input,select{padding:11px;background:#111;color:#fff;border:1px solid #555}
+table{width:100%;border-collapse:collapse;background:#111}th,td{padding:10px;border:1px solid #333;text-align:left}th{color:var(--yellow)}
+.error{color:#ff7979}.warning{color:#ffd166}.info{color:#aaa}
+</style>
+<h1>Master Archive Engine</h1>
+<div class="stats" id="stats"></div>
+<div class="tools">
+<input id="search" type="search" placeholder="Search the whole archive">
+<select id="severity"><option value="all">All quality issues</option><option value="error">Errors</option><option value="warning">Warnings</option><option value="info">Information</option></select>
+</div>
+<h2>Quality report</h2>
+<table><thead><tr><th>Severity</th><th>Collection</th><th>ID</th><th>Issue</th></tr></thead><tbody id="issues"></tbody></table>
+<h2>Search results</h2><div id="results"></div>
+<script src="master-archive-data.js"></script>
+<script src="master-archive-relations.js"></script>
+<script src="master-archive-quality.js"></script>
+<script src="master-archive-engine.js"></script>
+<script>
+const engine=window.BTOS_ARCHIVE_ENGINE;
+const stats=document.querySelector("#stats");
+stats.innerHTML=Object.entries(engine.archive.collections).map(([name,rows])=>`<div class="stat"><b>${rows.length}</b>${name}</div>`).join("");
+const severity=document.querySelector("#severity"),issues=document.querySelector("#issues"),search=document.querySelector("#search"),results=document.querySelector("#results");
+function drawIssues(){const s=severity.value;issues.innerHTML=engine.quality.filter(x=>s==="all"||x.severity===s).map(x=>`<tr><td class="${x.severity}">${x.severity}</td><td>${x.collection}</td><td>${x.id}</td><td>${x.issue}</td></tr>`).join("")}
+function drawSearch(){const rows=engine.search(search.value).slice(0,100);results.innerHTML=rows.length?rows.map(x=>`<p><b>${x.type}</b> — ${x.record.name||x.record.title||x.record.id}</p>`).join(""):""}
+severity.addEventListener("change",drawIssues);search.addEventListener("input",drawSearch);drawIssues();
+</script>

@@ -1,0 +1,66 @@
+{
+  "phase": "3.49",
+  "masterCollections": {
+    "artists": 83,
+    "tapePacks": 17,
+    "recordings": 2,
+    "videos": 26,
+    "events": 5,
+    "promoters": 5,
+    "venues": 1,
+    "radio": 1,
+    "flyers": 0,
+    "photos": 0,
+    "labels": 0,
+    "stories": 0
+  },
+  "brokenRelationsRemoved": [
+    "Removed broken target artists:demo from videos:YPdiDExbxJE",
+    "Removed missing source artists:demo",
+    "Removed broken target artists:colin-bell from videos:oFqZQbxiyVY",
+    "Removed missing source artists:colin-bell"
+  ],
+  "missingLocalFiles": [],
+  "testTargets": [
+    {
+      "type": "Artist",
+      "name": "Grooverider",
+      "href": "artist.html?id=grooverider"
+    },
+    {
+      "type": "Artist",
+      "name": "DJ Hype",
+      "href": "artist.html?id=dj-hype"
+    },
+    {
+      "type": "Artist",
+      "name": "MC Det",
+      "href": "artist.html?id=mc-det"
+    },
+    {
+      "type": "Tape pack",
+      "name": "Helter Skelter \u2014 Milwaukees",
+      "href": "packs.html?pack=helter-skelter-milwaukees-1991"
+    },
+    {
+      "type": "Tape pack",
+      "name": "United Dance Volume 5",
+      "href": "packs.html?pack=united-dance-volume-5"
+    },
+    {
+      "type": "Event",
+      "name": "Tazzmania",
+      "href": "event.html?id=tazzmania-1996-09-27"
+    },
+    {
+      "type": "Event",
+      "name": "Hastings Pier",
+      "href": "event.html?id=tazzmania-hastings-pier-1996"
+    },
+    {
+      "type": "Radio",
+      "name": "Kiss 100 FM event",
+      "href": "event.html?id=kiss-100-hixxy-dougal-1997"
+    }
+  ]
+}

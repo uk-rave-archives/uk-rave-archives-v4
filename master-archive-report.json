@@ -1,0 +1,23 @@
+{
+  "version": "3.48",
+  "counts": {
+    "artists": 83,
+    "tapePacks": 17,
+    "recordings": 2,
+    "videos": 26,
+    "events": 5,
+    "promoters": 5,
+    "venues": 1,
+    "radio": 1,
+    "flyers": 0,
+    "photos": 0,
+    "labels": 0,
+    "stories": 0
+  },
+  "relationshipNodes": 69,
+  "qualityIssues": {
+    "error": 4,
+    "warning": 5,
+    "info": 77
+  }
+}

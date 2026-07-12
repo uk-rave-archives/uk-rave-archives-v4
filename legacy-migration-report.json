@@ -1,0 +1,18 @@
+{
+  "oldRootsScanned": [
+    "/mnt/data/btos_phase323_header",
+    "/mnt/data/phase310_recovery",
+    "/mnt/data/phase312_tape_patch",
+    "/mnt/data/phase314_patch",
+    "/mnt/data/phase315_patch",
+    "/mnt/data/phase316_patch"
+  ],
+  "artistNamesFound": 80,
+  "newArtistRecordsAdded": 59,
+  "totalArtistRecords": 83,
+  "directArchiveAudioFilesFound": 0,
+  "archiveCollectionsFound": [
+    "https://archive.org/details/helter-skelter-tape-packs"
+  ],
+  "totalTapePackRecords": 17
+}

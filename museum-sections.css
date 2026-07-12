@@ -1,0 +1,24 @@
+
+/* Phase 3.11 section museum system — homepage intentionally excluded */
+:root{--museum-gold:#ffd21a;--museum-panel:rgba(8,11,15,.88);--museum-line:rgba(255,255,255,.16)}
+body.museum-section{background:#050607!important;background-image:linear-gradient(180deg,rgba(0,0,0,.20),#050607 72%)!important;min-height:100vh}
+body.museum-section::after{content:"";position:fixed;inset:0;z-index:-4;background:var(--section-bg) center top/cover no-repeat;filter:saturate(.72) contrast(1.08);opacity:.62}
+body.museum-section::before{content:"";position:fixed;inset:0;z-index:-3;background:linear-gradient(180deg,rgba(0,0,0,.20),rgba(3,5,8,.82) 55%,#050607 100%);pointer-events:none}
+body.museum-section .site-bg{display:none!important}
+body.museum-section .top{background:rgba(2,3,5,.88)!important;border-bottom:1px solid rgba(255,210,26,.28)!important;backdrop-filter:blur(12px)}
+body.museum-section .page{position:relative}
+body.museum-section .hero{background:rgba(4,7,10,.58)!important;border-color:rgba(255,255,255,.18)!important;box-shadow:0 28px 80px rgba(0,0,0,.5)}
+body.museum-section .hero:before{background:var(--section-bg) center/cover no-repeat!important;opacity:.55!important;filter:saturate(.75) contrast(1.08)!important}
+body.museum-section .hero:after{background:linear-gradient(90deg,rgba(2,3,5,.98),rgba(2,3,5,.74),rgba(2,3,5,.28)),linear-gradient(0deg,rgba(2,3,5,.94),transparent)!important}
+body.museum-section .card,body.museum-section .record,body.museum-section .notice,body.museum-section .fact{background:var(--museum-panel)!important;backdrop-filter:blur(8px);border-color:var(--museum-line)!important}
+body.section-flyers{--section-bg:url('bg-flyers.jpg')}
+body.section-tapes{--section-bg:url('bg-tapes.jpg')}
+body.section-people{--section-bg:url('bg-people.jpg')}
+body.section-venues{--section-bg:url('bg-venues.jpg')}
+body.section-promoters{--section-bg:url('bg-promoters.jpg')}
+body.section-events{--section-bg:url('bg-events.jpg')}
+body.section-radio{--section-bg:url('bg-radio.jpg')}
+body.section-stories{--section-bg:url('bg-stories.jpg')}
+body.section-search,body.section-admin,body.section-contributors{--section-bg:url('bg-search.jpg')}
+.credit,.contributor-credit,[class*="raveflyer"]{display:none!important}
+@media(max-width:800px){body.museum-section::after{background-position:center top;opacity:.48}}

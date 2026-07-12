@@ -1,0 +1,1518 @@
+{
+  "tape_packs": [
+    {
+      "id": "UKRA-PACK-000001",
+      "title": "Helter Skelter Tape Pack 1",
+      "file": "pack-helter-skelter-tape-pack-1.html",
+      "collection": "Helter Skelter",
+      "collection_url": "collection-helter-skelter.html",
+      "venue": "The Sanctuary",
+      "venue_url": "venue-the-sanctuary.html",
+      "year": "1990s",
+      "djs": [
+        "Hixxy",
+        "Slipmatt",
+        "Dougal",
+        "Vibes"
+      ],
+      "mcs": [
+        "MC GQ",
+        "MC Sharkey"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000002",
+      "title": "Helter Skelter Tape Pack 2",
+      "file": "pack-helter-skelter-tape-pack-2.html",
+      "collection": "Helter Skelter",
+      "collection_url": "collection-helter-skelter.html",
+      "venue": "The Sanctuary",
+      "venue_url": "venue-the-sanctuary.html",
+      "year": "Research Needed",
+      "djs": [
+        "Slipmatt",
+        "Dougal",
+        "Vibes",
+        "Sy"
+      ],
+      "mcs": [
+        "MC Sharkey",
+        "MC Ribbz"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000003",
+      "title": "Helter Skelter Tape Pack 3",
+      "file": "pack-helter-skelter-tape-pack-3.html",
+      "collection": "Helter Skelter",
+      "collection_url": "collection-helter-skelter.html",
+      "venue": "The Sanctuary",
+      "venue_url": "venue-the-sanctuary.html",
+      "year": "1990s",
+      "djs": [
+        "Dougal",
+        "Vibes",
+        "Sy",
+        "Seduction"
+      ],
+      "mcs": [
+        "MC Ribbz",
+        "MC Magika"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000004",
+      "title": "Helter Skelter Tape Pack 4",
+      "file": "pack-helter-skelter-tape-pack-4.html",
+      "collection": "Helter Skelter",
+      "collection_url": "collection-helter-skelter.html",
+      "venue": "The Sanctuary",
+      "venue_url": "venue-the-sanctuary.html",
+      "year": "Research Needed",
+      "djs": [
+        "Vibes",
+        "Sy",
+        "Seduction",
+        "Clarkee"
+      ],
+      "mcs": [
+        "MC Magika",
+        "MC Storm"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000005",
+      "title": "Helter Skelter Tape Pack 5",
+      "file": "pack-helter-skelter-tape-pack-5.html",
+      "collection": "Helter Skelter",
+      "collection_url": "collection-helter-skelter.html",
+      "venue": "The Sanctuary",
+      "venue_url": "venue-the-sanctuary.html",
+      "year": "1990s",
+      "djs": [
+        "Sy",
+        "Seduction",
+        "Clarkee",
+        "DJ SS"
+      ],
+      "mcs": [
+        "MC Storm",
+        "MC Whizzkid"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000006",
+      "title": "Helter Skelter Tape Pack 6",
+      "file": "pack-helter-skelter-tape-pack-6.html",
+      "collection": "Helter Skelter",
+      "collection_url": "collection-helter-skelter.html",
+      "venue": "The Sanctuary",
+      "venue_url": "venue-the-sanctuary.html",
+      "year": "Research Needed",
+      "djs": [
+        "Seduction",
+        "Clarkee",
+        "DJ SS",
+        "Carl Cox"
+      ],
+      "mcs": [
+        "MC Whizzkid",
+        "MC Energy"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000007",
+      "title": "Dreamscape Tape Pack 1",
+      "file": "pack-dreamscape-tape-pack-1.html",
+      "collection": "Dreamscape",
+      "collection_url": "collection-dreamscape.html",
+      "venue": "Research Needed",
+      "venue_url": "venues.html",
+      "year": "1990s",
+      "djs": [
+        "Hixxy",
+        "Slipmatt",
+        "Dougal",
+        "Vibes"
+      ],
+      "mcs": [
+        "MC GQ",
+        "MC Sharkey"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000008",
+      "title": "Dreamscape Tape Pack 2",
+      "file": "pack-dreamscape-tape-pack-2.html",
+      "collection": "Dreamscape",
+      "collection_url": "collection-dreamscape.html",
+      "venue": "Research Needed",
+      "venue_url": "venues.html",
+      "year": "Research Needed",
+      "djs": [
+        "Slipmatt",
+        "Dougal",
+        "Vibes",
+        "Sy"
+      ],
+      "mcs": [
+        "MC Sharkey",
+        "MC Ribbz"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000009",
+      "title": "Dreamscape Tape Pack 3",
+      "file": "pack-dreamscape-tape-pack-3.html",
+      "collection": "Dreamscape",
+      "collection_url": "collection-dreamscape.html",
+      "venue": "Research Needed",
+      "venue_url": "venues.html",
+      "year": "1990s",
+      "djs": [
+        "Dougal",
+        "Vibes",
+        "Sy",
+        "Seduction"
+      ],
+      "mcs": [
+        "MC Ribbz",
+        "MC Magika"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000010",
+      "title": "Dreamscape Tape Pack 4",
+      "file": "pack-dreamscape-tape-pack-4.html",
+      "collection": "Dreamscape",
+      "collection_url": "collection-dreamscape.html",
+      "venue": "Research Needed",
+      "venue_url": "venues.html",
+      "year": "Research Needed",
+      "djs": [
+        "Vibes",
+        "Sy",
+        "Seduction",
+        "Clarkee"
+      ],
+      "mcs": [
+        "MC Magika",
+        "MC Storm"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000011",
+      "title": "Dreamscape Tape Pack 5",
+      "file": "pack-dreamscape-tape-pack-5.html",
+      "collection": "Dreamscape",
+      "collection_url": "collection-dreamscape.html",
+      "venue": "Research Needed",
+      "venue_url": "venues.html",
+      "year": "1990s",
+      "djs": [
+        "Sy",
+        "Seduction",
+        "Clarkee",
+        "DJ SS"
+      ],
+      "mcs": [
+        "MC Storm",
+        "MC Whizzkid"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000012",
+      "title": "Dreamscape Tape Pack 6",
+      "file": "pack-dreamscape-tape-pack-6.html",
+      "collection": "Dreamscape",
+      "collection_url": "collection-dreamscape.html",
+      "venue": "Research Needed",
+      "venue_url": "venues.html",
+      "year": "Research Needed",
+      "djs": [
+        "Seduction",
+        "Clarkee",
+        "DJ SS",
+        "Carl Cox"
+      ],
+      "mcs": [
+        "MC Whizzkid",
+        "MC Energy"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000013",
+      "title": "Fantazia Tape Pack 1",
+      "file": "pack-fantazia-tape-pack-1.html",
+      "collection": "Fantazia",
+      "collection_url": "collection-fantazia.html",
+      "venue": "Crystal Palace Bowl",
+      "venue_url": "venue-crystal-palace-bowl.html",
+      "year": "1990s",
+      "djs": [
+        "Hixxy",
+        "Slipmatt",
+        "Dougal",
+        "Vibes"
+      ],
+      "mcs": [
+        "MC GQ",
+        "MC Sharkey"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000014",
+      "title": "Fantazia Tape Pack 2",
+      "file": "pack-fantazia-tape-pack-2.html",
+      "collection": "Fantazia",
+      "collection_url": "collection-fantazia.html",
+      "venue": "Crystal Palace Bowl",
+      "venue_url": "venue-crystal-palace-bowl.html",
+      "year": "Research Needed",
+      "djs": [
+        "Slipmatt",
+        "Dougal",
+        "Vibes",
+        "Sy"
+      ],
+      "mcs": [
+        "MC Sharkey",
+        "MC Ribbz"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000015",
+      "title": "Fantazia Tape Pack 3",
+      "file": "pack-fantazia-tape-pack-3.html",
+      "collection": "Fantazia",
+      "collection_url": "collection-fantazia.html",
+      "venue": "Crystal Palace Bowl",
+      "venue_url": "venue-crystal-palace-bowl.html",
+      "year": "1990s",
+      "djs": [
+        "Dougal",
+        "Vibes",
+        "Sy",
+        "Seduction"
+      ],
+      "mcs": [
+        "MC Ribbz",
+        "MC Magika"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000016",
+      "title": "Fantazia Tape Pack 4",
+      "file": "pack-fantazia-tape-pack-4.html",
+      "collection": "Fantazia",
+      "collection_url": "collection-fantazia.html",
+      "venue": "Crystal Palace Bowl",
+      "venue_url": "venue-crystal-palace-bowl.html",
+      "year": "Research Needed",
+      "djs": [
+        "Vibes",
+        "Sy",
+        "Seduction",
+        "Clarkee"
+      ],
+      "mcs": [
+        "MC Magika",
+        "MC Storm"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000017",
+      "title": "Fantazia Tape Pack 5",
+      "file": "pack-fantazia-tape-pack-5.html",
+      "collection": "Fantazia",
+      "collection_url": "collection-fantazia.html",
+      "venue": "Crystal Palace Bowl",
+      "venue_url": "venue-crystal-palace-bowl.html",
+      "year": "1990s",
+      "djs": [
+        "Sy",
+        "Seduction",
+        "Clarkee",
+        "DJ SS"
+      ],
+      "mcs": [
+        "MC Storm",
+        "MC Whizzkid"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000018",
+      "title": "Fantazia Tape Pack 6",
+      "file": "pack-fantazia-tape-pack-6.html",
+      "collection": "Fantazia",
+      "collection_url": "collection-fantazia.html",
+      "venue": "Crystal Palace Bowl",
+      "venue_url": "venue-crystal-palace-bowl.html",
+      "year": "Research Needed",
+      "djs": [
+        "Seduction",
+        "Clarkee",
+        "DJ SS",
+        "Carl Cox"
+      ],
+      "mcs": [
+        "MC Whizzkid",
+        "MC Energy"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000019",
+      "title": "United Dance Tape Pack 1",
+      "file": "pack-united-dance-tape-pack-1.html",
+      "collection": "United Dance",
+      "collection_url": "collection-united-dance.html",
+      "venue": "Research Needed",
+      "venue_url": "venues.html",
+      "year": "1990s",
+      "djs": [
+        "Hixxy",
+        "Slipmatt",
+        "Dougal",
+        "Vibes"
+      ],
+      "mcs": [
+        "MC GQ",
+        "MC Sharkey"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000020",
+      "title": "United Dance Tape Pack 2",
+      "file": "pack-united-dance-tape-pack-2.html",
+      "collection": "United Dance",
+      "collection_url": "collection-united-dance.html",
+      "venue": "Research Needed",
+      "venue_url": "venues.html",
+      "year": "Research Needed",
+      "djs": [
+        "Slipmatt",
+        "Dougal",
+        "Vibes",
+        "Sy"
+      ],
+      "mcs": [
+        "MC Sharkey",
+        "MC Ribbz"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000021",
+      "title": "United Dance Tape Pack 3",
+      "file": "pack-united-dance-tape-pack-3.html",
+      "collection": "United Dance",
+      "collection_url": "collection-united-dance.html",
+      "venue": "Research Needed",
+      "venue_url": "venues.html",
+      "year": "1990s",
+      "djs": [
+        "Dougal",
+        "Vibes",
+        "Sy",
+        "Seduction"
+      ],
+      "mcs": [
+        "MC Ribbz",
+        "MC Magika"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000022",
+      "title": "United Dance Tape Pack 4",
+      "file": "pack-united-dance-tape-pack-4.html",
+      "collection": "United Dance",
+      "collection_url": "collection-united-dance.html",
+      "venue": "Research Needed",
+      "venue_url": "venues.html",
+      "year": "Research Needed",
+      "djs": [
+        "Vibes",
+        "Sy",
+        "Seduction",
+        "Clarkee"
+      ],
+      "mcs": [
+        "MC Magika",
+        "MC Storm"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000023",
+      "title": "United Dance Tape Pack 5",
+      "file": "pack-united-dance-tape-pack-5.html",
+      "collection": "United Dance",
+      "collection_url": "collection-united-dance.html",
+      "venue": "Research Needed",
+      "venue_url": "venues.html",
+      "year": "1990s",
+      "djs": [
+        "Sy",
+        "Seduction",
+        "Clarkee",
+        "DJ SS"
+      ],
+      "mcs": [
+        "MC Storm",
+        "MC Whizzkid"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000024",
+      "title": "United Dance Tape Pack 6",
+      "file": "pack-united-dance-tape-pack-6.html",
+      "collection": "United Dance",
+      "collection_url": "collection-united-dance.html",
+      "venue": "Research Needed",
+      "venue_url": "venues.html",
+      "year": "Research Needed",
+      "djs": [
+        "Seduction",
+        "Clarkee",
+        "DJ SS",
+        "Carl Cox"
+      ],
+      "mcs": [
+        "MC Whizzkid",
+        "MC Energy"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000025",
+      "title": "Raindance Tape Pack 1",
+      "file": "pack-raindance-tape-pack-1.html",
+      "collection": "Raindance",
+      "collection_url": "collection-raindance.html",
+      "venue": "Bagleys",
+      "venue_url": "venue-bagleys.html",
+      "year": "1990s",
+      "djs": [
+        "Hixxy",
+        "Slipmatt",
+        "Dougal",
+        "Vibes"
+      ],
+      "mcs": [
+        "MC GQ",
+        "MC Sharkey"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000026",
+      "title": "Raindance Tape Pack 2",
+      "file": "pack-raindance-tape-pack-2.html",
+      "collection": "Raindance",
+      "collection_url": "collection-raindance.html",
+      "venue": "Bagleys",
+      "venue_url": "venue-bagleys.html",
+      "year": "Research Needed",
+      "djs": [
+        "Slipmatt",
+        "Dougal",
+        "Vibes",
+        "Sy"
+      ],
+      "mcs": [
+        "MC Sharkey",
+        "MC Ribbz"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000027",
+      "title": "Raindance Tape Pack 3",
+      "file": "pack-raindance-tape-pack-3.html",
+      "collection": "Raindance",
+      "collection_url": "collection-raindance.html",
+      "venue": "Bagleys",
+      "venue_url": "venue-bagleys.html",
+      "year": "1990s",
+      "djs": [
+        "Dougal",
+        "Vibes",
+        "Sy",
+        "Seduction"
+      ],
+      "mcs": [
+        "MC Ribbz",
+        "MC Magika"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000028",
+      "title": "Raindance Tape Pack 4",
+      "file": "pack-raindance-tape-pack-4.html",
+      "collection": "Raindance",
+      "collection_url": "collection-raindance.html",
+      "venue": "Bagleys",
+      "venue_url": "venue-bagleys.html",
+      "year": "Research Needed",
+      "djs": [
+        "Vibes",
+        "Sy",
+        "Seduction",
+        "Clarkee"
+      ],
+      "mcs": [
+        "MC Magika",
+        "MC Storm"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000029",
+      "title": "Raindance Tape Pack 5",
+      "file": "pack-raindance-tape-pack-5.html",
+      "collection": "Raindance",
+      "collection_url": "collection-raindance.html",
+      "venue": "Bagleys",
+      "venue_url": "venue-bagleys.html",
+      "year": "1990s",
+      "djs": [
+        "Sy",
+        "Seduction",
+        "Clarkee",
+        "DJ SS"
+      ],
+      "mcs": [
+        "MC Storm",
+        "MC Whizzkid"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000030",
+      "title": "Raindance Tape Pack 6",
+      "file": "pack-raindance-tape-pack-6.html",
+      "collection": "Raindance",
+      "collection_url": "collection-raindance.html",
+      "venue": "Bagleys",
+      "venue_url": "venue-bagleys.html",
+      "year": "Research Needed",
+      "djs": [
+        "Seduction",
+        "Clarkee",
+        "DJ SS",
+        "Carl Cox"
+      ],
+      "mcs": [
+        "MC Whizzkid",
+        "MC Energy"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000031",
+      "title": "Club Kinetic Tape Pack 1",
+      "file": "pack-club-kinetic-tape-pack-1.html",
+      "collection": "Club Kinetic",
+      "collection_url": "collection-club-kinetic.html",
+      "venue": "Club Kinetic",
+      "venue_url": "venue-club-kinetic.html",
+      "year": "1990s",
+      "djs": [
+        "Hixxy",
+        "Slipmatt",
+        "Dougal",
+        "Vibes"
+      ],
+      "mcs": [
+        "MC GQ",
+        "MC Sharkey"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000032",
+      "title": "Club Kinetic Tape Pack 2",
+      "file": "pack-club-kinetic-tape-pack-2.html",
+      "collection": "Club Kinetic",
+      "collection_url": "collection-club-kinetic.html",
+      "venue": "Club Kinetic",
+      "venue_url": "venue-club-kinetic.html",
+      "year": "Research Needed",
+      "djs": [
+        "Slipmatt",
+        "Dougal",
+        "Vibes",
+        "Sy"
+      ],
+      "mcs": [
+        "MC Sharkey",
+        "MC Ribbz"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000033",
+      "title": "Club Kinetic Tape Pack 3",
+      "file": "pack-club-kinetic-tape-pack-3.html",
+      "collection": "Club Kinetic",
+      "collection_url": "collection-club-kinetic.html",
+      "venue": "Club Kinetic",
+      "venue_url": "venue-club-kinetic.html",
+      "year": "1990s",
+      "djs": [
+        "Dougal",
+        "Vibes",
+        "Sy",
+        "Seduction"
+      ],
+      "mcs": [
+        "MC Ribbz",
+        "MC Magika"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000034",
+      "title": "Club Kinetic Tape Pack 4",
+      "file": "pack-club-kinetic-tape-pack-4.html",
+      "collection": "Club Kinetic",
+      "collection_url": "collection-club-kinetic.html",
+      "venue": "Club Kinetic",
+      "venue_url": "venue-club-kinetic.html",
+      "year": "Research Needed",
+      "djs": [
+        "Vibes",
+        "Sy",
+        "Seduction",
+        "Clarkee"
+      ],
+      "mcs": [
+        "MC Magika",
+        "MC Storm"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000035",
+      "title": "Club Kinetic Tape Pack 5",
+      "file": "pack-club-kinetic-tape-pack-5.html",
+      "collection": "Club Kinetic",
+      "collection_url": "collection-club-kinetic.html",
+      "venue": "Club Kinetic",
+      "venue_url": "venue-club-kinetic.html",
+      "year": "1990s",
+      "djs": [
+        "Sy",
+        "Seduction",
+        "Clarkee",
+        "DJ SS"
+      ],
+      "mcs": [
+        "MC Storm",
+        "MC Whizzkid"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-PACK-000036",
+      "title": "Club Kinetic Tape Pack 6",
+      "file": "pack-club-kinetic-tape-pack-6.html",
+      "collection": "Club Kinetic",
+      "collection_url": "collection-club-kinetic.html",
+      "venue": "Club Kinetic",
+      "venue_url": "venue-club-kinetic.html",
+      "year": "Research Needed",
+      "djs": [
+        "Seduction",
+        "Clarkee",
+        "DJ SS",
+        "Carl Cox"
+      ],
+      "mcs": [
+        "MC Whizzkid",
+        "MC Energy"
+      ],
+      "status": "Research Needed"
+    }
+  ],
+  "flyers": [
+    {
+      "id": "UKRA-FLY-000001",
+      "title": "Helter Skelter Flyer 1",
+      "file": "flyer-helter-skelter-1.html",
+      "collection": "Helter Skelter",
+      "collection_url": "collection-helter-skelter.html",
+      "venue": "The Sanctuary",
+      "venue_url": "venue-the-sanctuary.html",
+      "year": "1990s",
+      "djs": [
+        "Hixxy",
+        "Slipmatt",
+        "Dougal",
+        "Vibes"
+      ],
+      "mcs": [
+        "MC GQ",
+        "MC Sharkey"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000002",
+      "title": "Helter Skelter Flyer 2",
+      "file": "flyer-helter-skelter-2.html",
+      "collection": "Helter Skelter",
+      "collection_url": "collection-helter-skelter.html",
+      "venue": "The Sanctuary",
+      "venue_url": "venue-the-sanctuary.html",
+      "year": "Research Needed",
+      "djs": [
+        "Slipmatt",
+        "Dougal",
+        "Vibes",
+        "Sy"
+      ],
+      "mcs": [
+        "MC Sharkey",
+        "MC Ribbz"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000003",
+      "title": "Helter Skelter Flyer 3",
+      "file": "flyer-helter-skelter-3.html",
+      "collection": "Helter Skelter",
+      "collection_url": "collection-helter-skelter.html",
+      "venue": "The Sanctuary",
+      "venue_url": "venue-the-sanctuary.html",
+      "year": "1990s",
+      "djs": [
+        "Dougal",
+        "Vibes",
+        "Sy",
+        "Seduction"
+      ],
+      "mcs": [
+        "MC Ribbz",
+        "MC Magika"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000004",
+      "title": "Helter Skelter Flyer 4",
+      "file": "flyer-helter-skelter-4.html",
+      "collection": "Helter Skelter",
+      "collection_url": "collection-helter-skelter.html",
+      "venue": "The Sanctuary",
+      "venue_url": "venue-the-sanctuary.html",
+      "year": "Research Needed",
+      "djs": [
+        "Vibes",
+        "Sy",
+        "Seduction",
+        "Clarkee"
+      ],
+      "mcs": [
+        "MC Magika",
+        "MC Storm"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000005",
+      "title": "Helter Skelter Flyer 5",
+      "file": "flyer-helter-skelter-5.html",
+      "collection": "Helter Skelter",
+      "collection_url": "collection-helter-skelter.html",
+      "venue": "The Sanctuary",
+      "venue_url": "venue-the-sanctuary.html",
+      "year": "1990s",
+      "djs": [
+        "Sy",
+        "Seduction",
+        "Clarkee",
+        "DJ SS"
+      ],
+      "mcs": [
+        "MC Storm",
+        "MC Whizzkid"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000006",
+      "title": "Helter Skelter Flyer 6",
+      "file": "flyer-helter-skelter-6.html",
+      "collection": "Helter Skelter",
+      "collection_url": "collection-helter-skelter.html",
+      "venue": "The Sanctuary",
+      "venue_url": "venue-the-sanctuary.html",
+      "year": "Research Needed",
+      "djs": [
+        "Seduction",
+        "Clarkee",
+        "DJ SS",
+        "Carl Cox"
+      ],
+      "mcs": [
+        "MC Whizzkid",
+        "MC Energy"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000007",
+      "title": "Dreamscape Flyer 1",
+      "file": "flyer-dreamscape-1.html",
+      "collection": "Dreamscape",
+      "collection_url": "collection-dreamscape.html",
+      "venue": "Research Needed",
+      "venue_url": "venues.html",
+      "year": "1990s",
+      "djs": [
+        "Hixxy",
+        "Slipmatt",
+        "Dougal",
+        "Vibes"
+      ],
+      "mcs": [
+        "MC GQ",
+        "MC Sharkey"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000008",
+      "title": "Dreamscape Flyer 2",
+      "file": "flyer-dreamscape-2.html",
+      "collection": "Dreamscape",
+      "collection_url": "collection-dreamscape.html",
+      "venue": "Research Needed",
+      "venue_url": "venues.html",
+      "year": "Research Needed",
+      "djs": [
+        "Slipmatt",
+        "Dougal",
+        "Vibes",
+        "Sy"
+      ],
+      "mcs": [
+        "MC Sharkey",
+        "MC Ribbz"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000009",
+      "title": "Dreamscape Flyer 3",
+      "file": "flyer-dreamscape-3.html",
+      "collection": "Dreamscape",
+      "collection_url": "collection-dreamscape.html",
+      "venue": "Research Needed",
+      "venue_url": "venues.html",
+      "year": "1990s",
+      "djs": [
+        "Dougal",
+        "Vibes",
+        "Sy",
+        "Seduction"
+      ],
+      "mcs": [
+        "MC Ribbz",
+        "MC Magika"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000010",
+      "title": "Dreamscape Flyer 4",
+      "file": "flyer-dreamscape-4.html",
+      "collection": "Dreamscape",
+      "collection_url": "collection-dreamscape.html",
+      "venue": "Research Needed",
+      "venue_url": "venues.html",
+      "year": "Research Needed",
+      "djs": [
+        "Vibes",
+        "Sy",
+        "Seduction",
+        "Clarkee"
+      ],
+      "mcs": [
+        "MC Magika",
+        "MC Storm"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000011",
+      "title": "Dreamscape Flyer 5",
+      "file": "flyer-dreamscape-5.html",
+      "collection": "Dreamscape",
+      "collection_url": "collection-dreamscape.html",
+      "venue": "Research Needed",
+      "venue_url": "venues.html",
+      "year": "1990s",
+      "djs": [
+        "Sy",
+        "Seduction",
+        "Clarkee",
+        "DJ SS"
+      ],
+      "mcs": [
+        "MC Storm",
+        "MC Whizzkid"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000012",
+      "title": "Dreamscape Flyer 6",
+      "file": "flyer-dreamscape-6.html",
+      "collection": "Dreamscape",
+      "collection_url": "collection-dreamscape.html",
+      "venue": "Research Needed",
+      "venue_url": "venues.html",
+      "year": "Research Needed",
+      "djs": [
+        "Seduction",
+        "Clarkee",
+        "DJ SS",
+        "Carl Cox"
+      ],
+      "mcs": [
+        "MC Whizzkid",
+        "MC Energy"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000013",
+      "title": "Fantazia Flyer 1",
+      "file": "flyer-fantazia-1.html",
+      "collection": "Fantazia",
+      "collection_url": "collection-fantazia.html",
+      "venue": "Crystal Palace Bowl",
+      "venue_url": "venue-crystal-palace-bowl.html",
+      "year": "1990s",
+      "djs": [
+        "Hixxy",
+        "Slipmatt",
+        "Dougal",
+        "Vibes"
+      ],
+      "mcs": [
+        "MC GQ",
+        "MC Sharkey"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000014",
+      "title": "Fantazia Flyer 2",
+      "file": "flyer-fantazia-2.html",
+      "collection": "Fantazia",
+      "collection_url": "collection-fantazia.html",
+      "venue": "Crystal Palace Bowl",
+      "venue_url": "venue-crystal-palace-bowl.html",
+      "year": "Research Needed",
+      "djs": [
+        "Slipmatt",
+        "Dougal",
+        "Vibes",
+        "Sy"
+      ],
+      "mcs": [
+        "MC Sharkey",
+        "MC Ribbz"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000015",
+      "title": "Fantazia Flyer 3",
+      "file": "flyer-fantazia-3.html",
+      "collection": "Fantazia",
+      "collection_url": "collection-fantazia.html",
+      "venue": "Crystal Palace Bowl",
+      "venue_url": "venue-crystal-palace-bowl.html",
+      "year": "1990s",
+      "djs": [
+        "Dougal",
+        "Vibes",
+        "Sy",
+        "Seduction"
+      ],
+      "mcs": [
+        "MC Ribbz",
+        "MC Magika"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000016",
+      "title": "Fantazia Flyer 4",
+      "file": "flyer-fantazia-4.html",
+      "collection": "Fantazia",
+      "collection_url": "collection-fantazia.html",
+      "venue": "Crystal Palace Bowl",
+      "venue_url": "venue-crystal-palace-bowl.html",
+      "year": "Research Needed",
+      "djs": [
+        "Vibes",
+        "Sy",
+        "Seduction",
+        "Clarkee"
+      ],
+      "mcs": [
+        "MC Magika",
+        "MC Storm"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000017",
+      "title": "Fantazia Flyer 5",
+      "file": "flyer-fantazia-5.html",
+      "collection": "Fantazia",
+      "collection_url": "collection-fantazia.html",
+      "venue": "Crystal Palace Bowl",
+      "venue_url": "venue-crystal-palace-bowl.html",
+      "year": "1990s",
+      "djs": [
+        "Sy",
+        "Seduction",
+        "Clarkee",
+        "DJ SS"
+      ],
+      "mcs": [
+        "MC Storm",
+        "MC Whizzkid"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000018",
+      "title": "Fantazia Flyer 6",
+      "file": "flyer-fantazia-6.html",
+      "collection": "Fantazia",
+      "collection_url": "collection-fantazia.html",
+      "venue": "Crystal Palace Bowl",
+      "venue_url": "venue-crystal-palace-bowl.html",
+      "year": "Research Needed",
+      "djs": [
+        "Seduction",
+        "Clarkee",
+        "DJ SS",
+        "Carl Cox"
+      ],
+      "mcs": [
+        "MC Whizzkid",
+        "MC Energy"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000019",
+      "title": "United Dance Flyer 1",
+      "file": "flyer-united-dance-1.html",
+      "collection": "United Dance",
+      "collection_url": "collection-united-dance.html",
+      "venue": "Research Needed",
+      "venue_url": "venues.html",
+      "year": "1990s",
+      "djs": [
+        "Hixxy",
+        "Slipmatt",
+        "Dougal",
+        "Vibes"
+      ],
+      "mcs": [
+        "MC GQ",
+        "MC Sharkey"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000020",
+      "title": "United Dance Flyer 2",
+      "file": "flyer-united-dance-2.html",
+      "collection": "United Dance",
+      "collection_url": "collection-united-dance.html",
+      "venue": "Research Needed",
+      "venue_url": "venues.html",
+      "year": "Research Needed",
+      "djs": [
+        "Slipmatt",
+        "Dougal",
+        "Vibes",
+        "Sy"
+      ],
+      "mcs": [
+        "MC Sharkey",
+        "MC Ribbz"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000021",
+      "title": "United Dance Flyer 3",
+      "file": "flyer-united-dance-3.html",
+      "collection": "United Dance",
+      "collection_url": "collection-united-dance.html",
+      "venue": "Research Needed",
+      "venue_url": "venues.html",
+      "year": "1990s",
+      "djs": [
+        "Dougal",
+        "Vibes",
+        "Sy",
+        "Seduction"
+      ],
+      "mcs": [
+        "MC Ribbz",
+        "MC Magika"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000022",
+      "title": "United Dance Flyer 4",
+      "file": "flyer-united-dance-4.html",
+      "collection": "United Dance",
+      "collection_url": "collection-united-dance.html",
+      "venue": "Research Needed",
+      "venue_url": "venues.html",
+      "year": "Research Needed",
+      "djs": [
+        "Vibes",
+        "Sy",
+        "Seduction",
+        "Clarkee"
+      ],
+      "mcs": [
+        "MC Magika",
+        "MC Storm"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000023",
+      "title": "United Dance Flyer 5",
+      "file": "flyer-united-dance-5.html",
+      "collection": "United Dance",
+      "collection_url": "collection-united-dance.html",
+      "venue": "Research Needed",
+      "venue_url": "venues.html",
+      "year": "1990s",
+      "djs": [
+        "Sy",
+        "Seduction",
+        "Clarkee",
+        "DJ SS"
+      ],
+      "mcs": [
+        "MC Storm",
+        "MC Whizzkid"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000024",
+      "title": "United Dance Flyer 6",
+      "file": "flyer-united-dance-6.html",
+      "collection": "United Dance",
+      "collection_url": "collection-united-dance.html",
+      "venue": "Research Needed",
+      "venue_url": "venues.html",
+      "year": "Research Needed",
+      "djs": [
+        "Seduction",
+        "Clarkee",
+        "DJ SS",
+        "Carl Cox"
+      ],
+      "mcs": [
+        "MC Whizzkid",
+        "MC Energy"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000025",
+      "title": "Raindance Flyer 1",
+      "file": "flyer-raindance-1.html",
+      "collection": "Raindance",
+      "collection_url": "collection-raindance.html",
+      "venue": "Bagleys",
+      "venue_url": "venue-bagleys.html",
+      "year": "1990s",
+      "djs": [
+        "Hixxy",
+        "Slipmatt",
+        "Dougal",
+        "Vibes"
+      ],
+      "mcs": [
+        "MC GQ",
+        "MC Sharkey"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000026",
+      "title": "Raindance Flyer 2",
+      "file": "flyer-raindance-2.html",
+      "collection": "Raindance",
+      "collection_url": "collection-raindance.html",
+      "venue": "Bagleys",
+      "venue_url": "venue-bagleys.html",
+      "year": "Research Needed",
+      "djs": [
+        "Slipmatt",
+        "Dougal",
+        "Vibes",
+        "Sy"
+      ],
+      "mcs": [
+        "MC Sharkey",
+        "MC Ribbz"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000027",
+      "title": "Raindance Flyer 3",
+      "file": "flyer-raindance-3.html",
+      "collection": "Raindance",
+      "collection_url": "collection-raindance.html",
+      "venue": "Bagleys",
+      "venue_url": "venue-bagleys.html",
+      "year": "1990s",
+      "djs": [
+        "Dougal",
+        "Vibes",
+        "Sy",
+        "Seduction"
+      ],
+      "mcs": [
+        "MC Ribbz",
+        "MC Magika"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000028",
+      "title": "Raindance Flyer 4",
+      "file": "flyer-raindance-4.html",
+      "collection": "Raindance",
+      "collection_url": "collection-raindance.html",
+      "venue": "Bagleys",
+      "venue_url": "venue-bagleys.html",
+      "year": "Research Needed",
+      "djs": [
+        "Vibes",
+        "Sy",
+        "Seduction",
+        "Clarkee"
+      ],
+      "mcs": [
+        "MC Magika",
+        "MC Storm"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000029",
+      "title": "Raindance Flyer 5",
+      "file": "flyer-raindance-5.html",
+      "collection": "Raindance",
+      "collection_url": "collection-raindance.html",
+      "venue": "Bagleys",
+      "venue_url": "venue-bagleys.html",
+      "year": "1990s",
+      "djs": [
+        "Sy",
+        "Seduction",
+        "Clarkee",
+        "DJ SS"
+      ],
+      "mcs": [
+        "MC Storm",
+        "MC Whizzkid"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000030",
+      "title": "Raindance Flyer 6",
+      "file": "flyer-raindance-6.html",
+      "collection": "Raindance",
+      "collection_url": "collection-raindance.html",
+      "venue": "Bagleys",
+      "venue_url": "venue-bagleys.html",
+      "year": "Research Needed",
+      "djs": [
+        "Seduction",
+        "Clarkee",
+        "DJ SS",
+        "Carl Cox"
+      ],
+      "mcs": [
+        "MC Whizzkid",
+        "MC Energy"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000031",
+      "title": "Club Kinetic Flyer 1",
+      "file": "flyer-club-kinetic-1.html",
+      "collection": "Club Kinetic",
+      "collection_url": "collection-club-kinetic.html",
+      "venue": "Club Kinetic",
+      "venue_url": "venue-club-kinetic.html",
+      "year": "1990s",
+      "djs": [
+        "Hixxy",
+        "Slipmatt",
+        "Dougal",
+        "Vibes"
+      ],
+      "mcs": [
+        "MC GQ",
+        "MC Sharkey"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000032",
+      "title": "Club Kinetic Flyer 2",
+      "file": "flyer-club-kinetic-2.html",
+      "collection": "Club Kinetic",
+      "collection_url": "collection-club-kinetic.html",
+      "venue": "Club Kinetic",
+      "venue_url": "venue-club-kinetic.html",
+      "year": "Research Needed",
+      "djs": [
+        "Slipmatt",
+        "Dougal",
+        "Vibes",
+        "Sy"
+      ],
+      "mcs": [
+        "MC Sharkey",
+        "MC Ribbz"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000033",
+      "title": "Club Kinetic Flyer 3",
+      "file": "flyer-club-kinetic-3.html",
+      "collection": "Club Kinetic",
+      "collection_url": "collection-club-kinetic.html",
+      "venue": "Club Kinetic",
+      "venue_url": "venue-club-kinetic.html",
+      "year": "1990s",
+      "djs": [
+        "Dougal",
+        "Vibes",
+        "Sy",
+        "Seduction"
+      ],
+      "mcs": [
+        "MC Ribbz",
+        "MC Magika"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000034",
+      "title": "Club Kinetic Flyer 4",
+      "file": "flyer-club-kinetic-4.html",
+      "collection": "Club Kinetic",
+      "collection_url": "collection-club-kinetic.html",
+      "venue": "Club Kinetic",
+      "venue_url": "venue-club-kinetic.html",
+      "year": "Research Needed",
+      "djs": [
+        "Vibes",
+        "Sy",
+        "Seduction",
+        "Clarkee"
+      ],
+      "mcs": [
+        "MC Magika",
+        "MC Storm"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000035",
+      "title": "Club Kinetic Flyer 5",
+      "file": "flyer-club-kinetic-5.html",
+      "collection": "Club Kinetic",
+      "collection_url": "collection-club-kinetic.html",
+      "venue": "Club Kinetic",
+      "venue_url": "venue-club-kinetic.html",
+      "year": "1990s",
+      "djs": [
+        "Sy",
+        "Seduction",
+        "Clarkee",
+        "DJ SS"
+      ],
+      "mcs": [
+        "MC Storm",
+        "MC Whizzkid"
+      ],
+      "status": "Research Needed"
+    },
+    {
+      "id": "UKRA-FLY-000036",
+      "title": "Club Kinetic Flyer 6",
+      "file": "flyer-club-kinetic-6.html",
+      "collection": "Club Kinetic",
+      "collection_url": "collection-club-kinetic.html",
+      "venue": "Club Kinetic",
+      "venue_url": "venue-club-kinetic.html",
+      "year": "Research Needed",
+      "djs": [
+        "Seduction",
+        "Clarkee",
+        "DJ SS",
+        "Carl Cox"
+      ],
+      "mcs": [
+        "MC Whizzkid",
+        "MC Energy"
+      ],
+      "status": "Research Needed"
+    }
+  ]
+}
