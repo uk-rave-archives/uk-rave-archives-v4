@@ -1,0 +1,7 @@
+
+.event-hero{min-height:560px;display:flex;align-items:end;padding:60px;background:linear-gradient(0deg,#030303,transparent),url("event-warehouse-hall.jpg") center/cover no-repeat}
+.event-hero-copy h1{margin:0;text-transform:uppercase;font-size:clamp(54px,8vw,120px);line-height:.85}.event-hero-copy p{font-size:20px}
+.event-panel{width:min(1400px,calc(100% - 48px));margin:18px auto;padding:24px;background:#080808;border:1px solid rgba(255,255,255,.15)}
+.event-panel h2{text-transform:uppercase}.event-facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.event-facts div{padding:16px;border:1px solid #333}.event-facts small{display:block;color:#ffc400;text-transform:uppercase;font-weight:900}.artist-links{display:flex;flex-wrap:wrap;gap:10px}.artist-links a{padding:10px 13px;border:1px solid #444;text-decoration:none}.artist-links a:hover{border-color:#ffc400;color:#ffc400}
+.video-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.video-card{border:1px solid #333;background:#050505;overflow:hidden}.video-card img{width:100%;aspect-ratio:16/9;object-fit:cover}.video-card div{padding:13px}.video-card a{color:#ffc400}.audio-list audio{width:100%}
+@media(max-width:800px){.event-facts,.video-grid{grid-template-columns:1fr}}

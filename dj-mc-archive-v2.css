@@ -1,0 +1,146 @@
+
+:root{
+  --yellow:#ffc400;--white:#f4f0e8;--muted:#b9b5ad;--black:#030303;
+  --panel:rgba(5,5,5,.91);--line:rgba(255,255,255,.17)
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#030303;color:var(--white);font-family:Arial,Helvetica,sans-serif}
+a{color:inherit}
+button,input,select{font:inherit}
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* Exact homepage-style header rhythm */
+.museum-header{
+  position:sticky;top:0;z-index:1000;min-height:114px;
+  display:flex;align-items:center;gap:34px;padding:0 24px;
+  background:rgba(0,0,0,.98);border-bottom:1px solid rgba(255,196,0,.18)
+}
+.museum-logo{flex:0 0 252px;display:block}
+.museum-logo img{display:block;width:252px;height:108px;object-fit:contain;object-position:left center}
+.museum-nav{margin-left:auto;display:flex;align-items:center;gap:clamp(17px,1.7vw,32px)}
+.museum-nav a{
+  position:relative;display:flex;align-items:center;min-height:114px;
+  text-decoration:none;text-transform:uppercase;color:#f4f0e8;
+  font-weight:900;font-size:clamp(11px,.84vw,15px);white-space:nowrap
+}
+.museum-nav a:hover,.museum-nav a.active{color:var(--yellow)}
+.museum-nav a.active:after{content:"";position:absolute;left:0;right:0;bottom:24px;height:3px;background:var(--yellow)}
+.menu-button{display:none;margin-left:auto;color:var(--yellow);background:#050505;border:1px solid var(--yellow);padding:10px 14px;font-weight:900;text-transform:uppercase}
+
+/* Hero */
+.dj-hero{
+  min-height:650px;position:relative;display:grid;grid-template-columns:.82fr 1.18fr;
+  align-items:center;gap:42px;padding:70px clamp(34px,4vw,72px) 58px;
+  background:
+    linear-gradient(90deg,rgba(0,0,0,.74) 0%,rgba(0,0,0,.30) 52%,rgba(0,0,0,.48) 100%),
+    url("dj-archive-booth.jpg") center/cover no-repeat;
+  border-bottom:1px solid rgba(255,196,0,.18)
+}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.1),rgba(0,0,0,.36))}
+.dj-hero>*:not(.hero-overlay){position:relative;z-index:1}
+.eyebrow{display:flex;align-items:center;gap:15px;color:var(--yellow);text-transform:uppercase;font-weight:900;letter-spacing:.13em;font-size:18px}
+.eyebrow span{width:75px;height:1px;background:var(--yellow)}
+.hero-title h1{margin:13px 0 14px;text-transform:uppercase;font-weight:1000;font-size:clamp(64px,7.5vw,122px);line-height:.86;letter-spacing:-.055em;text-shadow:0 8px 30px #000}
+.hero-title h1 b{display:block;color:var(--yellow)}
+.hero-subtitle{font-size:clamp(21px,2vw,31px);line-height:1.25;text-transform:uppercase;font-weight:900}
+.hero-note{font-size:19px;line-height:1.55;color:#d6d2ca}
+
+.featured-artist{
+  max-width:800px;justify-self:end;display:grid;grid-template-columns:.9fr 1.1fr;
+  background:rgba(3,3,3,.94);border:1px solid rgba(255,196,0,.55);
+  box-shadow:0 22px 70px rgba(0,0,0,.72)
+}
+.featured-photo img{width:100%;height:100%;min-height:390px;object-fit:cover;filter:grayscale(1) contrast(1.08)}
+.featured-copy{padding:30px}
+.section-label{margin:0 0 8px;color:var(--yellow);font-weight:900;text-transform:uppercase;letter-spacing:.11em}
+.featured-copy h2{margin:0;font-size:clamp(38px,4vw,62px);text-transform:uppercase;line-height:1}
+.featured-tag{color:var(--yellow);font-weight:900;text-transform:uppercase;font-size:13px}
+.featured-copy p{line-height:1.55}
+.primary-button,.browse-button{
+  display:inline-flex;align-items:center;justify-content:center;gap:20px;
+  min-height:48px;padding:0 24px;border:1px solid var(--yellow);
+  background:rgba(0,0,0,.6);color:var(--yellow);text-decoration:none;
+  text-transform:uppercase;font-weight:900;letter-spacing:.08em;cursor:pointer
+}
+.primary-button:hover,.browse-button:hover{background:var(--yellow);color:#000}
+.feature-links{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:24px 0 14px}
+.feature-links a{padding:12px 3px 0;border-top:1px solid var(--line);text-decoration:none;text-transform:uppercase;font-size:11px;text-align:center}
+.feature-links a:hover{color:var(--yellow)}
+.featured-copy small{display:block;color:#8d8a84;font-size:11px}
+
+/* Tools and directory */
+.search-panel{
+  width:min(1500px,calc(100% - 56px));margin:0 auto;padding:14px;
+  display:grid;grid-template-columns:1.7fr .72fr .72fr .72fr;gap:14px;
+  background:rgba(6,6,6,.97);border:1px solid var(--line);transform:translateY(-1px)
+}
+.search-panel input,.search-panel select{
+  width:100%;height:52px;padding:0 16px;background:#0b0b0b;color:#f4f0e8;border:1px solid #454545
+}
+.alphabet{
+  width:min(1450px,calc(100% - 56px));margin:0 auto;display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:7px;
+  padding:9px 0 15px;border-bottom:1px solid var(--line)
+}
+.alphabet button{border:0;background:transparent;color:#9d9a94;padding:6px 8px;text-transform:uppercase;font-weight:900;cursor:pointer}
+.alphabet button:hover,.alphabet button.active{background:var(--yellow);color:#000}
+
+.artist-gallery,.era-gallery,.explore-more,.preserve-banner{width:min(1450px,calc(100% - 56px));margin:0 auto}
+.artist-gallery,.era-gallery,.explore-more{padding:25px 0}
+.section-heading{display:flex;align-items:end;justify-content:space-between;margin-bottom:14px}
+.section-heading h2,.explore-more h2{margin:0;text-transform:uppercase;font-size:25px;letter-spacing:.04em}
+.section-heading a{text-decoration:none;color:var(--yellow);font-weight:900;text-transform:uppercase}
+.artist-row{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px}
+.artist-card{min-width:0;background:#080808;border:1px solid var(--line);overflow:hidden;transition:.2s}
+.artist-card:hover{transform:translateY(-4px);border-color:var(--yellow)}
+.artist-card a{text-decoration:none}
+.artist-card img{width:100%;aspect-ratio:4/5;display:block;object-fit:cover;filter:grayscale(1);background:#111}
+.artist-card div{padding:12px}
+.artist-card h3{margin:0 0 5px;font-size:16px;text-transform:uppercase}
+.artist-card p{margin:0;color:var(--yellow);font-size:11px;text-transform:uppercase;font-weight:900;line-height:1.35}
+.artist-card[hidden]{display:none}
+.no-results{padding:30px;border:1px solid var(--line);text-align:center;color:var(--muted)}
+
+.era-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.era-card{min-height:190px;position:relative;overflow:hidden;text-align:left;color:#fff;padding:20px;border:1px solid currentColor;background-position:center;background-size:cover;cursor:pointer}
+.era-card:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.9),rgba(0,0,0,.22))}
+.era-card>*{position:relative;display:block}
+.era-card strong{font-size:26px}
+.era-card b{margin-top:7px;text-transform:uppercase;font-size:15px}
+.era-early{color:#ffc400;background-image:url("bg-events.jpg")}
+.era-golden{color:#38bcff;background-image:url("bg-tapes.jpg")}
+.era-club{color:#f14fd0;background-image:url("bg-people.jpg")}
+.era-later{color:#8fe35d;background-image:url("bg-venues.jpg")}
+
+.explore-links{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:15px}
+.explore-links a{min-height:105px;padding:20px;background:#090909;border:1px solid var(--line);text-decoration:none}
+.explore-links a:hover{border-color:var(--yellow)}
+.explore-links b{display:block;color:#fff;text-transform:uppercase;margin-bottom:8px}
+.explore-links span{color:#b6b2aa;line-height:1.4;font-size:14px}
+
+.preserve-banner{margin-top:12px;margin-bottom:35px;padding:26px 30px;display:flex;align-items:center;justify-content:space-between;gap:25px;border:1px solid rgba(255,196,0,.42);background:linear-gradient(90deg,rgba(21,16,2,.84),rgba(5,5,5,.94))}
+.preserve-banner h2{margin:0 0 7px;color:var(--yellow);text-transform:uppercase}
+.preserve-banner p{margin:0;color:#d0ccc4}
+
+@media(max-width:1180px){
+  .museum-nav{gap:12px}.museum-nav a{font-size:10px}.museum-logo{flex-basis:210px}.museum-logo img{width:210px}
+  .dj-hero{grid-template-columns:1fr;padding-top:60px}.featured-artist{justify-self:stretch;max-width:940px}
+  .artist-row{grid-template-columns:repeat(3,1fr)}
+  .explore-links{grid-template-columns:repeat(3,1fr)}
+}
+@media(max-width:860px){
+  .museum-header{min-height:82px;padding:0 15px}.museum-logo{flex-basis:178px}.museum-logo img{width:178px;height:78px}
+  .menu-button{display:block}.museum-nav{display:none;position:absolute;top:82px;left:0;right:0;margin:0;padding:10px 16px 18px;background:#030303;flex-direction:column;align-items:stretch}
+  .museum-nav.open{display:flex}.museum-nav a{min-height:42px;font-size:13px}.museum-nav a.active:after{bottom:2px;right:auto;width:42px}
+  .dj-hero{padding:50px 20px 35px}.featured-artist{grid-template-columns:1fr}.featured-photo img{min-height:300px}
+  .search-panel{width:calc(100% - 30px);grid-template-columns:1fr 1fr}.search-field{grid-column:1/-1}
+  .alphabet,.artist-gallery,.era-gallery,.explore-more,.preserve-banner{width:calc(100% - 30px)}
+  .era-row{grid-template-columns:1fr 1fr}.explore-links{grid-template-columns:1fr 1fr}
+}
+@media(max-width:560px){
+  .hero-title h1{font-size:58px}.eyebrow span{width:35px}.hero-subtitle{font-size:18px}
+  .search-panel{grid-template-columns:1fr}.search-panel>*{grid-column:auto}
+  .artist-row{grid-template-columns:1fr 1fr}.era-row,.explore-links{grid-template-columns:1fr}
+  .feature-links{grid-template-columns:1fr 1fr}.featured-copy{padding:22px}
+  .preserve-banner{align-items:flex-start;flex-direction:column}
+}

@@ -1,0 +1,133 @@
+
+/* Phase 3.26 — exact homepage-style header for djs.html */
+.museum-home-header{
+  position:sticky;
+  top:0;
+  z-index:9999;
+  min-height:112px;
+  display:flex;
+  align-items:center;
+  gap:32px;
+  padding:0 30px;
+  background:rgba(2,2,2,.98);
+  border-bottom:1px solid rgba(255,196,0,.22);
+  box-shadow:0 8px 28px rgba(0,0,0,.45);
+}
+.museum-home-header__brand{
+  display:block;
+  flex:0 0 270px;
+  width:270px;
+  height:138px;
+  margin-top:0;
+  background:url("homepage-header-logo.png") left center/contain no-repeat;
+  text-indent:-9999px;
+  overflow:hidden;
+}
+.museum-home-header__nav{
+  margin-left:auto;
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  gap:clamp(20px,2vw,36px);
+  min-width:0;
+}
+.museum-home-header__nav a{
+  position:relative;
+  display:flex;
+  align-items:center;
+  min-height:112px;
+  color:#f1eee7;
+  text-decoration:none;
+  text-transform:uppercase;
+  white-space:nowrap;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:clamp(12px,.86vw,16px);
+  font-weight:800;
+  letter-spacing:.03em;
+}
+.museum-home-header__nav a:hover,
+.museum-home-header__nav a:focus,
+.museum-home-header__nav a[aria-current="page"]{
+  color:#ffc400;
+}
+.museum-home-header__nav a[aria-current="page"]::after{
+  content:"";
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:25px;
+  height:3px;
+  background:#ffc400;
+}
+.museum-home-header__menu{
+  display:none;
+  margin-left:auto;
+  border:1px solid #ffc400;
+  background:#070707;
+  color:#ffc400;
+  padding:10px 14px;
+  font-weight:800;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+}
+@media(max-width:1100px){
+  .museum-home-header{
+    min-height:86px;
+    padding:0 18px;
+  }
+  .museum-home-header__brand{
+    width:210px;
+    height:105px;
+    flex-basis:210px;
+  }
+  .museum-home-header__nav{
+    gap:16px;
+  }
+  .museum-home-header__nav a{
+    min-height:86px;
+    font-size:11px;
+  }
+  .museum-home-header__nav a[aria-current="page"]::after{
+    bottom:16px;
+  }
+}
+@media(max-width:860px){
+  .museum-home-header{
+    min-height:72px;
+  }
+  .museum-home-header__brand{
+    width:176px;
+    height:88px;
+    flex-basis:176px;
+  }
+  .museum-home-header__menu{
+    display:block;
+  }
+  .museum-home-header__nav{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    right:0;
+    padding:12px 18px 18px;
+    background:#050505;
+    border-bottom:1px solid rgba(255,196,0,.4);
+    flex-direction:column;
+    align-items:stretch;
+    gap:0;
+  }
+  .museum-home-header__nav.is-open{
+    display:flex;
+  }
+  .museum-home-header__nav a{
+    min-height:44px;
+    padding:0 6px;
+    font-size:13px;
+  }
+  .museum-home-header__nav a[aria-current="page"]::after{
+    left:6px;
+    right:auto;
+    width:44px;
+    bottom:4px;
+  }
+}
