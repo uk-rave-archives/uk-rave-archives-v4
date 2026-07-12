@@ -1,0 +1,20 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Phase 3.41 YouTube Tracklist Import Test</title>
+<style>
+body{font:16px Arial;background:#0a0a0a;color:#eee;padding:30px}
+h1{color:#ffc400}pre{white-space:pre-wrap;background:#000;border:1px solid #555;padding:18px}
+.ok{color:#ffc400}.warn{color:#ffcc66}
+</style>
+<h1>YouTube Comment Tracklist Import</h1>
+<p>This test reads <code>youtube-tracklists-data.js</code>.</p>
+<pre id="result">Loading…</pre>
+<script src="youtube-tracklists-data.js"></script>
+<script>
+const data=window.BTOS_YOUTUBE_TRACKLISTS||[];
+const parsed=data.filter(x=>x.status==="parsed");
+const tracks=parsed.reduce((n,x)=>n+(x.tracks?.length||0),0);
+document.querySelector("#result").innerHTML=data.length
+ ? `<span class="ok">Videos in import: ${data.length}\nParsed tracklists: ${parsed.length}\nParsed tracks: ${tracks}</span>`
+ : `<span class="warn">Importer is installed, but no comments have been imported yet. Run youtube-comment-tracklist-importer.py with a YouTube API key or comments export.</span>`;
+</script>

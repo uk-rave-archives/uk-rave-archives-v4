@@ -1,0 +1,15 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>YouTube Archive Data Test</title>
+<style>
+body{margin:0;padding:30px;background:#080808;color:#eee;font:15px Arial}
+h1{color:#ffc400}.video{padding:14px;margin:8px 0;border:1px solid #444;background:#111}
+.video b,.video span{display:block}.video span{color:#aaa;margin-top:5px}
+</style>
+<h1>YouTube Archive Records</h1>
+<div id="list"></div>
+<script src="youtube-archive-data.js"></script>
+<script>
+const list=document.querySelector("#list");
+list.innerHTML=(window.BTOS_YOUTUBE||[]).map(v=>`<div class="video"><b>${v.title}</b><span>${v.displayType} · ${v.year||""} · ${v.event||""}</span></div>`).join("");
+</script>
