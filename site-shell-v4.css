@@ -1,0 +1,196 @@
+
+:root{
+  --btos-yellow:#f2d500;
+  --btos-black:#030303;
+  --btos-panel:#0b0c0d;
+  --btos-white:#f5f3ec;
+  --btos-muted:#aaa8a0;
+  --btos-line:rgba(255,255,255,.16);
+  --btos-header-height:104px;
+}
+*{box-sizing:border-box}
+html{background:var(--btos-black);scroll-behavior:smooth}
+body{
+  margin:0!important;
+  background:var(--btos-black)!important;
+  color:var(--btos-white)!important;
+  font-family:Arial,Helvetica,sans-serif!important;
+  min-height:100vh;
+}
+body::selection{background:var(--btos-yellow);color:#000}
+a{transition:color .18s,border-color .18s,background .18s,transform .18s}
+img{max-width:100%}
+
+.museum-header,.museum-site-header,.mobile-header{
+  position:sticky!important;
+  top:0!important;
+  z-index:5000!important;
+  width:100%!important;
+  min-height:var(--btos-header-height)!important;
+  height:var(--btos-header-height)!important;
+  display:flex!important;
+  align-items:center!important;
+  gap:28px!important;
+  padding:0 26px!important;
+  background:rgba(0,0,0,.97)!important;
+  border:0!important;
+  border-bottom:1px solid rgba(242,213,0,.24)!important;
+  box-shadow:0 8px 28px rgba(0,0,0,.42)!important;
+}
+.museum-logo,.museum-brand,.mobile-brand{
+  display:flex!important;
+  align-items:center!important;
+  flex:0 0 246px!important;
+  width:246px!important;
+  height:100%!important;
+  color:var(--btos-yellow)!important;
+  text-decoration:none!important;
+  font-family:Impact,"Arial Black",Arial,sans-serif!important;
+  text-transform:uppercase!important;
+  line-height:.9!important;
+  font-size:24px!important;
+}
+.museum-logo img,.museum-brand img{
+  display:block!important;
+  width:230px!important;
+  height:96px!important;
+  object-fit:contain!important;
+}
+.mobile-brand span{display:block;color:#fff;font-size:.72em}
+
+.museum-nav,.museum-main-nav,.mobile-nav{
+  margin-left:auto!important;
+  display:flex!important;
+  align-items:stretch!important;
+  justify-content:flex-end!important;
+  gap:clamp(13px,1.45vw,27px)!important;
+  height:100%!important;
+  background:transparent!important;
+  padding:0!important;
+  position:static!important;
+}
+.museum-nav a,.museum-main-nav a,.mobile-nav a{
+  position:relative!important;
+  display:flex!important;
+  align-items:center!important;
+  min-height:100%!important;
+  color:#fff!important;
+  text-decoration:none!important;
+  text-transform:uppercase!important;
+  white-space:nowrap!important;
+  font-size:clamp(10px,.78vw,14px)!important;
+  font-weight:900!important;
+  letter-spacing:.015em!important;
+  padding:0!important;
+  border:0!important;
+}
+.museum-nav a:hover,.museum-main-nav a:hover,.mobile-nav a:hover,
+.museum-nav a.active,.museum-main-nav a.active,.mobile-nav a.active,
+.museum-nav a[aria-current="page"],.museum-main-nav a[aria-current="page"],.mobile-nav a[aria-current="page"]{
+  color:var(--btos-yellow)!important;
+}
+.museum-nav a.active::after,.museum-main-nav a.active::after,.mobile-nav a.active::after,
+.museum-nav a[aria-current="page"]::after,.museum-main-nav a[aria-current="page"]::after,.mobile-nav a[aria-current="page"]::after{
+  content:""!important;
+  position:absolute!important;
+  left:0!important;
+  right:0!important;
+  bottom:22px!important;
+  height:3px!important;
+  background:var(--btos-yellow)!important;
+}
+.menu-button{
+  display:none;
+  margin-left:auto!important;
+  padding:10px 13px!important;
+  border:1px solid var(--btos-yellow)!important;
+  background:#080808!important;
+  color:var(--btos-yellow)!important;
+  text-transform:uppercase!important;
+  font-weight:900!important;
+  cursor:pointer!important;
+}
+
+.kicker,.eyebrow,.section-label{
+  color:var(--btos-yellow)!important;
+  text-transform:uppercase!important;
+  letter-spacing:.12em!important;
+  font-weight:900!important;
+}
+h1,h2,h3,h4{text-wrap:balance}
+button,.button,.btn,.outline-button,.profile-button{border-radius:0!important}
+input,select,textarea{
+  border-radius:0!important;
+  background:#090909!important;
+  color:#fff!important;
+  border-color:#555!important;
+}
+input:focus,select:focus,textarea:focus,button:focus-visible,a:focus-visible{
+  outline:2px solid var(--btos-yellow)!important;
+  outline-offset:3px!important;
+}
+footer{
+  min-height:62px;
+  border-top:1px solid rgba(242,213,0,.2);
+  background:#000;
+}
+body.page-home .mobile-header{
+  position:absolute!important;
+  background:linear-gradient(#000,rgba(0,0,0,.82))!important;
+}
+body.page-home .visual-home{background:#000}
+body.page-home .mobile-directory{
+  background:linear-gradient(180deg,#080808,#020202)!important;
+  border-top:1px solid rgba(242,213,0,.26)!important;
+}
+body:not(.page-home)::before{
+  content:"";
+  position:fixed;
+  inset:var(--btos-header-height) 0 0;
+  z-index:-2;
+  background:
+    linear-gradient(rgba(0,0,0,.72),rgba(0,0,0,.91)),
+    url("artist-env-early-warehouse.jpg") center/cover fixed no-repeat;
+  opacity:.32;
+}
+body:not(.page-home)::after{
+  content:"";
+  position:fixed;
+  inset:var(--btos-header-height) 0 0;
+  z-index:-1;
+  background:radial-gradient(circle at 50% 0,rgba(242,213,0,.055),transparent 42%);
+  pointer-events:none;
+}
+
+@media(max-width:1080px){
+  :root{--btos-header-height:84px}
+  .museum-header,.museum-site-header,.mobile-header{padding:0 16px!important}
+  .museum-logo,.museum-brand,.mobile-brand{flex-basis:195px!important;width:195px!important;font-size:19px!important}
+  .museum-logo img,.museum-brand img{width:185px!important;height:76px!important}
+  .menu-button{display:block!important}
+  .museum-nav,.museum-main-nav,.mobile-nav{
+    display:none!important;
+    position:absolute!important;
+    left:0!important;
+    right:0!important;
+    top:var(--btos-header-height)!important;
+    height:auto!important;
+    flex-direction:column!important;
+    align-items:stretch!important;
+    gap:0!important;
+    padding:12px 16px 18px!important;
+    background:rgba(0,0,0,.99)!important;
+    border-bottom:1px solid rgba(242,213,0,.25)!important;
+  }
+  .museum-nav.open,.museum-main-nav.open,.mobile-nav.open{display:flex!important}
+  .museum-nav a,.museum-main-nav a,.mobile-nav a{
+    min-height:43px!important;
+    font-size:12px!important;
+    border-bottom:1px solid rgba(255,255,255,.08)!important;
+  }
+  .museum-nav a::after,.museum-main-nav a::after,.mobile-nav a::after{display:none!important}
+}
+@media(max-width:520px){
+  .museum-logo,.museum-brand,.mobile-brand{flex-basis:158px!important;width:158px!important;font-size:16px!important}
+  .museum-logo img,.museum-brand img{width:150px!important}
+}

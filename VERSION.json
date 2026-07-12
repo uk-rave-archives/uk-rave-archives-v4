@@ -1,0 +1,10 @@
+{
+  "project": "Back to the Old Skool Archive",
+  "build": "4.0-test-ready",
+  "purpose": "Separate GitHub Pages test deployment",
+  "sharedShell": [
+    "site-shell-v4.css",
+    "site-shell-v4.js"
+  ],
+  "doNotOverwriteLiveSiteUntilApproved": true
+}

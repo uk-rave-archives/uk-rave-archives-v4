@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Flyer Museum — Back to the Old Skool Archive</title><style>
+:root{--bg:#05070a;--panel:#0d1118;--line:#263241;--gold:#ffd21a;--text:#f7f7fb;--muted:#aeb7c3}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#05070a;color:var(--text);font-family:Arial,Helvetica,sans-serif}a{color:inherit;text-decoration:none}
+body:before{content:"";position:fixed;left:0;right:0;bottom:0;height:210px;background:#111;opacity:.15;z-index:-1;clip-path:polygon(0 75%,5% 75%,5% 46%,12% 46%,12% 66%,18% 66%,18% 38%,27% 38%,27% 75%,35% 75%,35% 53%,43% 53%,43% 31%,52% 31%,52% 75%,61% 75%,61% 47%,70% 47%,70% 61%,77% 61%,77% 36%,87% 36%,87% 75%,100% 75%,100% 100%,0 100%)}
+.top{background:#030508;border-bottom:1px solid var(--line);padding:14px 20px;position:sticky;top:0;z-index:20}.brand{color:var(--gold);font-weight:1000;font-size:23px}.brand small{display:block;color:#929dab;font-size:10px;letter-spacing:.17em}.nav{display:flex;gap:17px;overflow:auto;margin-top:9px}.nav a{font-size:13px;font-weight:900;color:#d8dde5;white-space:nowrap}.nav a.active{color:var(--gold)}
+.page{max-width:1450px;margin:auto;padding:26px 22px}.hero{position:relative;min-height:430px;border:1px solid var(--line);border-radius:22px;overflow:hidden;background:#0d131d}.hero-grid{position:absolute;inset:0;display:grid;grid-template-columns:repeat(8,1fr);opacity:.5}.hero-grid img{width:100%;height:100%;object-fit:cover}.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,7,10,.98),rgba(5,7,10,.77),rgba(5,7,10,.26))}.hero-content{position:relative;z-index:2;padding:42px;max-width:850px}.kicker{color:var(--gold);font-weight:1000;letter-spacing:.15em}.hero h1{font-size:clamp(46px,7vw,94px);line-height:.87;margin:10px 0}.hero p{font-size:18px;line-height:1.5;color:#e5ebf3}
+.section{margin-top:34px}.section h2{color:var(--gold);font-size:30px}.filters{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}.filter{background:#0b1017;border:1px solid #3b495d;color:#fff;border-radius:999px;padding:9px 13px;font-weight:900;cursor:pointer}.filter.active{border-color:var(--gold);color:var(--gold)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:18px}.card{background:var(--panel);border:1px solid var(--line);border-radius:15px;overflow:hidden}.image{height:300px;background:#05070a;display:grid;place-items:center;border-bottom:1px solid var(--line)}.image img{width:100%;height:100%;object-fit:contain;padding:9px}.body{padding:15px}.card h3{margin:0 0 5px;color:var(--gold)}.card p{margin:0;color:var(--muted);font-size:13px;line-height:1.4}.pill{display:inline-block;border:1px solid #465469;border-radius:999px;padding:5px 8px;margin:8px 4px 0 0;font-size:11px}.pill.gold{border-color:var(--gold);color:var(--gold)}
+.btn{display:inline-block;background:var(--gold);color:#000;border-radius:8px;padding:12px 16px;font-weight:1000;margin:8px 8px 0 0}.btn.dark{background:#111823;color:#fff;border:1px solid #44536a}
+.record{display:grid;grid-template-columns:minmax(300px,.75fr) minmax(0,1.25fr);gap:22px;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:18px}.record img{width:100%;max-height:760px;object-fit:contain;background:#05070a;border-radius:12px}.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:11px}.fact{background:#111823;border:1px solid var(--line);border-radius:9px;padding:13px}.fact small{display:block;color:var(--gold);font-weight:900;margin-bottom:5px}.credit{margin-top:16px;border:1px solid var(--gold);border-radius:11px;padding:14px;background:#141106}
+@media(max-width:800px){.page{padding:17px}.hero-grid{grid-template-columns:repeat(3,1fr)}.hero-content{padding:26px}.record{grid-template-columns:1fr}.image{height:250px}}
+
+:root{--bg:#05070a;--panel:#0d1118;--panel2:#111823;--line:#263241;--gold:#ffd21a;--text:#f7f7fb;--muted:#aeb7c3}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#05070a;color:var(--text);font-family:Arial,Helvetica,sans-serif}a{color:inherit;text-decoration:none}
+.site-bg{position:fixed;inset:0;z-index:-3;background:url('warehouse-background.jpg') center/cover no-repeat;filter:grayscale(1) contrast(1.08);opacity:.18}
+.site-bg:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,7,10,.72),rgba(5,7,10,.94) 60%,#05070a)}
+.top{background:rgba(3,5,8,.96);border-bottom:1px solid var(--line);padding:14px 20px;position:sticky;top:0;z-index:30;backdrop-filter:blur(9px)}
+.brand{color:var(--gold);font-weight:1000;font-size:24px}.brand small{display:block;color:#9aa5b5;font-size:10px;letter-spacing:.18em;margin-top:2px}
+.nav{display:flex;gap:17px;overflow-x:auto;margin-top:9px}.nav a{font-size:13px;font-weight:900;color:#d8dde5;white-space:nowrap}.nav a.active{color:var(--gold)}
+.page{max-width:1450px;margin:auto;padding:26px 22px}.hero{position:relative;min-height:560px;border:1px solid var(--line);border-radius:24px;overflow:hidden;background:rgba(8,12,18,.68)}
+.hero:before{content:"";position:absolute;inset:0;background:url('warehouse-background.jpg') center/cover no-repeat;filter:grayscale(1) contrast(1.08);opacity:.72}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,7,10,.98),rgba(5,7,10,.80),rgba(5,7,10,.32)),linear-gradient(0deg,rgba(5,7,10,.90),transparent)}
+.hero-content{position:relative;z-index:2;padding:50px;max-width:900px}.kicker{color:var(--gold);font-weight:1000;letter-spacing:.16em}
+.hero h1{font-size:clamp(48px,7vw,105px);line-height:.84;margin:12px 0}.hero p{font-size:20px;line-height:1.55;color:#e6edf6;max-width:760px}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--gold);color:#000;border-radius:9px;padding:13px 18px;font-weight:1000;margin:8px 8px 0 0}.btn.dark{background:#111823;color:#fff;border:1px solid #44536a}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:18px}.stat{background:rgba(13,17,24,.92);border:1px solid var(--line);border-radius:12px;padding:16px;text-align:center}.stat b{display:block;color:var(--gold);font-size:30px}.stat span{font-size:11px;color:var(--muted);font-weight:900}
+.section{margin-top:36px}.section h2{color:var(--gold);font-size:31px;margin:0 0 14px}.intro{color:#c7d0dc;line-height:1.6;max-width:980px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}.card{background:rgba(13,17,24,.94);border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:.18s}.card:hover{transform:translateY(-3px);border-color:#53657d}
+.card-img{height:190px;display:grid;place-items:center;background:linear-gradient(135deg,#162031,#080b10);font-size:52px;color:var(--gold);border-bottom:1px solid var(--line)}
+.card-img.flyer{background:url('flyer-museum-01.jpg') center/cover no-repeat}.card-img.tapes{background:url('flyer-museum-11.jpg') center/cover no-repeat}.card-img.people{background:url('flyer-museum-02.jpg') center/cover no-repeat}.card-img.venues{background:url('warehouse-background.jpg') center/cover no-repeat}
+.body{padding:17px}.card h3{margin:0 0 7px;color:var(--gold)}.card p{margin:0;color:var(--muted);font-size:13px;line-height:1.45}
+.notice{background:rgba(17,24,35,.94);border:1px solid var(--gold);border-radius:14px;padding:18px}
+@media(max-width:800px){.page{padding:17px}.hero-content{padding:28px}.hero{min-height:500px}.card-img{height:160px}}
+</style><link href="museum-sections.css" rel="stylesheet"/><link href="museum-header.css" rel="stylesheet"/><link rel="stylesheet" href="site-shell-v4.css">
+</head><body class="museum-section section-flyers"><header class="museum-site-header">
+<div class="museum-header-inner">
+<a aria-label="Back to the Old Skool Archive home" class="museum-brand" href="index.html">Back to the <strong>Old Skool</strong><span>Archive</span></a>
+<button aria-controls="museum-main-nav" aria-expanded="false" class="museum-menu-toggle" type="button">Menu</button>
+<nav aria-label="Main navigation" class="museum-main-nav" id="museum-main-nav"><a href="index.html">Home</a><a aria-current="page" class="active" href="flyers.html">Flyers</a><a href="packs.html">Tape Packs</a><a href="djs.html">DJs &amp; MCs</a><a href="venues.html">Venues</a><a href="promoters.html">Promoters</a><a href="events.html">Timeline</a><a href="radio.html">Radio</a><a href="stories.html">Stories</a><a href="search.html">Search</a></nav>
+</div></header><div class="site-bg"></div><div class="top"><div class="brand">BACK TO THE OLD SKOOL ARCHIVE<small>PRESERVING UK RAVE HISTORY</small></div><div class="nav"><a class="" href="index.html">HOME</a><a class="active" href="flyers.html">FLYERS</a><a class="" href="packs.html">TAPE PACKS</a><a class="" href="people.html">PEOPLE</a><a class="" href="venues.html">VENUES</a><a class="" href="promoters.html">PROMOTERS</a><a class="" href="search.html">SEARCH</a><a class="" href="contributors.html">CONTRIBUTORS</a></div></div><main class="page">
+<section class="hero"><div class="hero-grid"><img alt="Flyer" src="flyer-museum-01.jpg"/><img alt="Flyer" src="flyer-museum-02.jpg"/><img alt="Flyer" src="flyer-museum-03.jpg"/><img alt="Flyer" src="flyer-museum-04.jpg"/><img alt="Flyer" src="flyer-museum-05.jpg"/><img alt="Flyer" src="flyer-museum-06.jpg"/><img alt="Flyer" src="flyer-museum-07.jpg"/><img alt="Flyer" src="flyer-museum-08.jpg"/><img alt="Flyer" src="flyer-museum-09.jpg"/><img alt="Flyer" src="flyer-museum-10.jpg"/><img alt="Flyer" src="flyer-museum-11.jpg"/><img alt="Flyer" src="flyer-museum-12.jpg"/><img alt="Flyer" src="flyer-museum-13.jpg"/><img alt="Flyer" src="flyer-museum-14.jpg"/><img alt="Flyer" src="flyer-museum-15.jpg"/><img alt="Flyer" src="flyer-museum-16.jpg"/></div><div class="hero-content"><div class="kicker">PHASE 3 — REAL CONTENT BUILD</div><h1>The Flyer Museum</h1><p>55 original scans now live in a flat, upload-safe build. Click any flyer to open its exhibit record.</p><a class="btn" href="#collection">Browse Flyers</a><a class="btn dark" href="search.html">Search Archive</a></div></section>
+<section class="section" id="collection"><h2>Flyer Collection</h2><div class="filters"><button class="filter active" data-year="all">All</button><button class="filter" data-year="1989">1989</button><button class="filter" data-year="1991">1991</button><button class="filter" data-year="1992">1992</button><button class="filter" data-year="1993">1993</button><button class="filter" data-year="1994">1994</button><button class="filter" data-year="1995">1995</button><button class="filter" data-year="TBC">TBC</button></div><div class="grid" id="gallery"><a class="card flyer-card" data-promoter="Raindance" data-year="1992" href="flyer-record.html?id=0">
+<div class="image"><img alt="Raindance" src="flyer-museum-01.jpg"/></div>
+<div class="body"><h3>Raindance</h3><p>Wisbech / The Prodigy PA</p>
+<span class="pill gold">1992</span><span class="pill">Raindance</span></div></a><a class="card flyer-card" data-promoter="Elevation / Volatile State" data-year="1991" href="flyer-record.html?id=1">
+<div class="image"><img alt="Showtime 91" src="flyer-museum-02.jpg"/></div>
+<div class="body"><h3>Showtime 91</h3><p>Part III</p>
+<span class="pill gold">1991</span><span class="pill">Elevation / Volatile State</span></div></a><a class="card flyer-card" data-promoter="Research needed" data-year="TBC" href="flyer-record.html?id=2">
+<div class="image"><img alt="Easy Lee Memorial Dance" src="flyer-museum-03.jpg"/></div>
+<div class="body"><h3>Easy Lee Memorial Dance</h3><p>Community memorial event</p>
+<span class="pill gold">TBC</span><span class="pill">Research needed</span></div></a><a class="card flyer-card" data-promoter="Research needed" data-year="TBC" href="flyer-record.html?id=3">
+<div class="image"><img alt="Yabba-Dabba-II" src="flyer-museum-04.jpg"/></div>
+<div class="body"><h3>Yabba-Dabba-II</h3><p>Astoria event</p>
+<span class="pill gold">TBC</span><span class="pill">Research needed</span></div></a><a class="card flyer-card" data-promoter="Wonderland" data-year="TBC" href="flyer-record.html?id=4">
+<div class="image"><img alt="Wonderland" src="flyer-museum-05.jpg"/></div>
+<div class="body"><h3>Wonderland</h3><p>Formation / Total Kaos</p>
+<span class="pill gold">TBC</span><span class="pill">Wonderland</span></div></a><a class="card flyer-card" data-promoter="Insomnia" data-year="1993" href="flyer-record.html?id=5">
+<div class="image"><img alt="Insomnia" src="flyer-museum-06.jpg"/></div>
+<div class="body"><h3>Insomnia</h3><p>Paradise Club</p>
+<span class="pill gold">1993</span><span class="pill">Insomnia</span></div></a><a class="card flyer-card" data-promoter="Perception" data-year="1991" href="flyer-record.html?id=6">
+<div class="image"><img alt="Perception" src="flyer-museum-07.jpg"/></div>
+<div class="body"><h3>Perception</h3><p>The Summer Celebration</p>
+<span class="pill gold">1991</span><span class="pill">Perception</span></div></a><a class="card flyer-card" data-promoter="Delirium Promotions" data-year="1992" href="flyer-record.html?id=7">
+<div class="image"><img alt="Monkey Island" src="flyer-museum-08.jpg"/></div>
+<div class="body"><h3>Monkey Island</h3><p>Delirium Promotions</p>
+<span class="pill gold">1992</span><span class="pill">Delirium Promotions</span></div></a><a class="card flyer-card" data-promoter="Freedom" data-year="TBC" href="flyer-record.html?id=8">
+<div class="image"><img alt="Freedom" src="flyer-museum-09.jpg"/></div>
+<div class="body"><h3>Freedom</h3><p>Queensway Warehouse</p>
+<span class="pill gold">TBC</span><span class="pill">Freedom</span></div></a><a class="card flyer-card" data-promoter="Hypnosis" data-year="TBC" href="flyer-record.html?id=9">
+<div class="image"><img alt="Hypnosis" src="flyer-museum-10.jpg"/></div>
+<div class="body"><h3>Hypnosis</h3><p>Shrewsbury</p>
+<span class="pill gold">TBC</span><span class="pill">Hypnosis</span></div></a><a class="card flyer-card" data-promoter="Elevation" data-year="1994" href="flyer-record.html?id=10">
+<div class="image"><img alt="Elevation" src="flyer-museum-11.jpg"/></div>
+<div class="body"><h3>Elevation</h3><p>Together '94</p>
+<span class="pill gold">1994</span><span class="pill">Elevation</span></div></a><a class="card flyer-card" data-promoter="Fantasy FM" data-year="1991" href="flyer-record.html?id=11">
+<div class="image"><img alt="Fantasy FM" src="flyer-museum-12.jpg"/></div>
+<div class="body"><h3>Fantasy FM</h3><p>The Rave Part II</p>
+<span class="pill gold">1991</span><span class="pill">Fantasy FM</span></div></a><a class="card flyer-card" data-promoter="Research needed" data-year="1989" href="flyer-record.html?id=12">
+<div class="image"><img alt="Badance / Batcave" src="flyer-museum-13.jpg"/></div>
+<div class="body"><h3>Badance / Batcave</h3><p>Early acid house flyer</p>
+<span class="pill gold">1989</span><span class="pill">Research needed</span></div></a><a class="card flyer-card" data-promoter="Research needed" data-year="1995" href="flyer-record.html?id=13">
+<div class="image"><img alt="Hardcore" src="flyer-museum-14.jpg"/></div>
+<div class="body"><h3>Hardcore</h3><p>The Eclipse Room</p>
+<span class="pill gold">1995</span><span class="pill">Research needed</span></div></a><a class="card flyer-card" data-promoter="Hyperaktive" data-year="1991" href="flyer-record.html?id=14">
+<div class="image"><img alt="Hyperaktive" src="flyer-museum-15.jpg"/></div>
+<div class="body"><h3>Hyperaktive</h3><p>Pleasuredrome</p>
+<span class="pill gold">1991</span><span class="pill">Hyperaktive</span></div></a><a class="card flyer-card" data-promoter="Research needed" data-year="TBC" href="flyer-record.html?id=15">
+<div class="image"><img alt="Archive Flyer" src="flyer-museum-16.jpg"/></div>
+<div class="body"><h3>Archive Flyer</h3><p>Metadata research in progress</p>
+<span class="pill gold">TBC</span><span class="pill">Research needed</span></div></a><a class="card flyer-card" data-promoter="Research needed" data-year="TBC" href="flyer-record.html?id=16">
+<div class="image"><img alt="Archive Flyer" src="flyer-museum-17.jpg"/></div>
+<div class="body"><h3>Archive Flyer</h3><p>Metadata research in progress</p>
+<span class="pill gold">TBC</span><span class="pill">Research needed</span></div></a><a class="card flyer-card" data-promoter="Research needed" data-year="TBC" href="flyer-record.html?id=17">
+<div class="image"><img alt="Archive Flyer" src="flyer-museum-18.jpg"/></div>
+<div class="body"><h3>Archive Flyer</h3><p>Metadata research in progress</p>
+<span class="pill gold">TBC</span><span class="pill">Research needed</span></div></a><a class="card flyer-card" data-promoter="Research needed" data-year="TBC" href="flyer-record.html?id=18">
+<div class="image"><img alt="Archive Flyer" src="flyer-museum-19.jpg"/></div>
+<div class="body"><h3>Archive Flyer</h3><p>Metadata research in progress</p>
+<span class="pill gold">TBC</span><span class="pill">Research needed</span></div></a><a class="card flyer-card" data-promoter="Research needed" data-year="TBC" href="flyer-record.html?id=19">
+<div class="image"><img alt="Archive Flyer" src="flyer-museum-20.jpg"/></div>
+<div class="body"><h3>Archive Flyer</h3><p>Metadata research in progress</p>
+<span class="pill gold">TBC</span><span class="pill">Research needed</span></div></a><a class="card flyer-card" data-promoter="Research needed" data-year="TBC" href="flyer-record.html?id=20">
+<div class="image"><img alt="Archive Flyer" src="flyer-museum-21.jpg"/></div>
+<div class="body"><h3>Archive Flyer</h3><p>Metadata research in progress</p>
+<span class="pill gold">TBC</span><span class="pill">Research needed</span></div></a><a class="card flyer-card" data-promoter="Research needed" data-year="TBC" href="flyer-record.html?id=21">
+<div class="image"><img alt="Archive Flyer" src="flyer-museum-22.jpg"/></div>
+<div class="body"><h3>Archive Flyer</h3><p>Metadata research in progress</p>
+<span class="pill gold">TBC</span><span class="pill">Research needed</span></div></a><a class="card flyer-card" data-promoter="Research needed" data-year="TBC" href="flyer-record.html?id=22">
+<div class="image"><img alt="Archive Flyer" src="flyer-museum-23.jpg"/></div>
+<div class="body"><h3>Archive Flyer</h3><p>Metadata research in progress</p>
+<span class="pill gold">TBC</span><span class="pill">Research needed</span></div></a><a class="card flyer-card" data-promoter="Research needed" data-year="TBC" href="flyer-record.html?id=23">
+<div class="image"><img alt="Archive Flyer" src="flyer-museum-24.jpg"/></div>
+<div class="body"><h3>Archive Flyer</h3><p>Metadata research in progress</p>
+<span class="pill gold">TBC</span><span class="pill">Research needed</span></div></a><a class="card flyer-card" data-promoter="Research needed" data-year="TBC" href="flyer-record.html?id=24">
+<div class="image"><img alt="Archive Flyer" src="flyer-museum-25.jpg"/></div>
+<div class="body"><h3>Archive Flyer</h3><p>Metadata research in progress</p>
+<span class="pill gold">TBC</span><span class="pill">Research needed</span></div></a><a class="card flyer-card" data-promoter="Research needed" data-year="TBC" href="flyer-record.html?id=25">
+<div class="image"><img alt="Archive Flyer" src="flyer-museum-26.jpg"/></div>
+<div class="body"><h3>Archive Flyer</h3><p>Metadata research in progress</p>
+<span class="pill gold">TBC</span><span class="pill">Research needed</span></div></a><a class="card flyer-card" data-promoter="Research needed" data-year="TBC" href="flyer-record.html?id=26">
+<div class="image"><img alt="Archive Flyer" src="flyer-museum-27.jpg"/></div>
+<div class="body"><h3>Archive Flyer</h3><p>Metadata research in progress</p>
+<span class="pill gold">TBC</span><span class="pill">Research needed</span></div></a><a class="card flyer-card" data-promoter="Research needed" data-year="TBC" href="flyer-record.html?id=27">
+<div class="image"><img alt="Archive Flyer" src="flyer-museum-28.jpg"/></div>
+<div class="body"><h3>Archive Flyer</h3><p>Metadata research in progress</p>
+<span class="pill gold">TBC</span><span class="pill">Research needed</span></div></a><a class="card flyer-card" data-promoter="Research needed" data-year="TBC" href="flyer-record.html?id=28">
+<div class="image"><img alt="Archive Flyer" src="flyer-museum-29.jpg"/></div>
+<div class="body"><h3>Archive Flyer</h3><p>Metadata research in progress</p>
+<span class="pill gold">TBC</span><span class="pill">Research needed</span></div></a><a class="card flyer-card" data-promoter="Research needed" data-year="TBC" href="flyer-record.html?id=29">
+<div class="image"><img alt="Archive Flyer" src="flyer-museum-30.jpg"/></div>
+<div class="body"><h3>Archive Flyer</h3><p>Metadata research in progress</p>
+<span class="pill gold">TBC</span><span class="pill">Research needed</span></div></a><a class="card flyer-card" data-promoter="Research needed" data-year="TBC" href="flyer-record.html?id=30">
+<div class="image"><img alt="Archive Flyer" src="flyer-museum-31.jpg"/></div>
+<div class="body"><h3>Archive Flyer</h3><p>Metadata research in progress</p>
+<span class="pill gold">TBC</span><span class="pill">Research needed</span></div></a><a class="card flyer-card" data-promoter="Research needed" data-year="TBC" href="flyer-record.html?id=31">
+<div class="image"><img alt="Archive Flyer" src="flyer-museum-32.jpg"/></div>
+<div class="body"><h3>Archive Flyer</h3><p>Metadata research in progress</p>
+<span class="pill gold">TBC</span><span class="pill">Research needed</span></div></a><a class="card flyer-card" data-promoter="Research needed" data-year="TBC" href="flyer-record.html?id=32">
+<div class="image"><img alt="Archive Flyer" src="flyer-museum-33.jpg"/></div>
+<div class="body"><h3>Archive Flyer</h3><p>Metadata research in progress</p>
+<span class="pill gold">TBC</span><span class="pill">Research needed</span></div></a><a class="card flyer-card" data-promoter="Research needed" data-year="TBC" href="flyer-record.html?id=33">
+<div class="image"><img alt="Archive Flyer" src="flyer-museum-34.jpg"/></div>
+<div class="body"><h3>Archive Flyer</h3><p>Metadata research in progress</p>
+<span class="pill gold">TBC</span><span class="pill">Research needed</span></div></a><a class="card flyer-card" data-promoter="Research needed" data-year="TBC" href="flyer-record.html?id=34">
+<div class="image"><img alt="Archive Flyer" src="flyer-museum-35.jpg"/></div>
+<div class="body"><h3>Archive Flyer</h3><p>Metadata research in progress</p>
+<span class="pill gold">TBC</span><span class="pill">Research needed</span></div></a><a class="card flyer-card" data-promoter="Big Bad Head" data-year="TBC" href="flyer-record.html?id=35">
+<div class="image"><img alt="Big Bad Head" src="flyer-museum-36.jpg"/></div>
+<div class="body"><h3>Big Bad Head</h3><p>The Eclipse, Coventry</p>
+<span class="pill gold">TBC</span><span class="pill">Big Bad Head</span></div></a><a class="card flyer-card" data-promoter="The Head" data-year="TBC" href="flyer-record.html?id=36">
+<div class="image"><img alt="The Head" src="flyer-museum-37.jpg"/></div>
+<div class="body"><h3>The Head</h3><p>Event flyer</p>
+<span class="pill gold">TBC</span><span class="pill">The Head</span></div></a><a class="card flyer-card" data-promoter="Pleasuredome" data-year="TBC" href="flyer-record.html?id=37">
+<div class="image"><img alt="Pleasuredome" src="flyer-museum-38.jpg"/></div>
+<div class="body"><h3>Pleasuredome</h3><p>Halloween Howler</p>
+<span class="pill gold">TBC</span><span class="pill">Pleasuredome</span></div></a><a class="card flyer-card" data-promoter="Slammin' Vinyl" data-year="TBC" href="flyer-record.html?id=38">
+<div class="image"><img alt="Slammin' Vinyl" src="flyer-museum-39.jpg"/></div>
+<div class="body"><h3>Slammin' Vinyl</h3><p>The Payback</p>
+<span class="pill gold">TBC</span><span class="pill">Slammin' Vinyl</span></div></a><a class="card flyer-card" data-promoter="DGF Promotions" data-year="TBC" href="flyer-record.html?id=39">
+<div class="image"><img alt="Wonderland" src="flyer-museum-40.jpg"/></div>
+<div class="body"><h3>Wonderland</h3><p>Chapter 2</p>
+<span class="pill gold">TBC</span><span class="pill">DGF Promotions</span></div></a><a class="card flyer-card" data-promoter="Inspiration" data-year="TBC" href="flyer-record.html?id=40">
+<div class="image"><img alt="Inspiration" src="flyer-museum-41.jpg"/></div>
+<div class="body"><h3>Inspiration</h3><p>Rave event</p>
+<span class="pill gold">TBC</span><span class="pill">Inspiration</span></div></a><a class="card flyer-card" data-promoter="Destiny" data-year="TBC" href="flyer-record.html?id=41">
+<div class="image"><img alt="Destiny" src="flyer-museum-42.jpg"/></div>
+<div class="body"><h3>Destiny</h3><p>Event flyer</p>
+<span class="pill gold">TBC</span><span class="pill">Destiny</span></div></a><a class="card flyer-card" data-promoter="Elevation / Volatile State" data-year="1991" href="flyer-record.html?id=42">
+<div class="image"><img alt="Showtime '91" src="flyer-museum-43.jpg"/></div>
+<div class="body"><h3>Showtime '91</h3><p>Elevation + Volatile State</p>
+<span class="pill gold">1991</span><span class="pill">Elevation / Volatile State</span></div></a><a class="card flyer-card" data-promoter="Elevation / Volatile State" data-year="1991" href="flyer-record.html?id=43">
+<div class="image"><img alt="Showtime '91" src="flyer-museum-44.jpg"/></div>
+<div class="body"><h3>Showtime '91</h3><p>Reverse / information</p>
+<span class="pill gold">1991</span><span class="pill">Elevation / Volatile State</span></div></a><a class="card flyer-card" data-promoter="Slammin' Vinyl" data-year="TBC" href="flyer-record.html?id=44">
+<div class="image"><img alt="Slammin' Vinyl" src="flyer-museum-45.jpg"/></div>
+<div class="body"><h3>Slammin' Vinyl</h3><p>Event flyer</p>
+<span class="pill gold">TBC</span><span class="pill">Slammin' Vinyl</span></div></a><a class="card flyer-card" data-promoter="Ministry of Sound" data-year="TBC" href="flyer-record.html?id=45">
+<div class="image"><img alt="Ministry of Sound" src="flyer-museum-46.jpg"/></div>
+<div class="body"><h3>Ministry of Sound</h3><p>XXI</p>
+<span class="pill gold">TBC</span><span class="pill">Ministry of Sound</span></div></a><a class="card flyer-card" data-promoter="Ministry of Sound" data-year="TBC" href="flyer-record.html?id=46">
+<div class="image"><img alt="Ministry of Sound" src="flyer-museum-47.jpg"/></div>
+<div class="body"><h3>Ministry of Sound</h3><p>Meridian</p>
+<span class="pill gold">TBC</span><span class="pill">Ministry of Sound</span></div></a><a class="card flyer-card" data-promoter="Ministry of Sound" data-year="TBC" href="flyer-record.html?id=47">
+<div class="image"><img alt="Ministry of Sound" src="flyer-museum-48.jpg"/></div>
+<div class="body"><h3>Ministry of Sound</h3><p>House of XXI</p>
+<span class="pill gold">TBC</span><span class="pill">Ministry of Sound</span></div></a><a class="card flyer-card" data-promoter="Rhythm Station" data-year="TBC" href="flyer-record.html?id=48">
+<div class="image"><img alt="Rhythm Station" src="flyer-museum-49.jpg"/></div>
+<div class="body"><h3>Rhythm Station</h3><p>Aldershot event</p>
+<span class="pill gold">TBC</span><span class="pill">Rhythm Station</span></div></a><a class="card flyer-card" data-promoter="The Mousetrap" data-year="TBC" href="flyer-record.html?id=49">
+<div class="image"><img alt="The Mousetrap" src="flyer-museum-50.jpg"/></div>
+<div class="body"><h3>The Mousetrap</h3><p>Finsbury Park</p>
+<span class="pill gold">TBC</span><span class="pill">The Mousetrap</span></div></a><a class="card flyer-card" data-promoter="Equinox" data-year="TBC" href="flyer-record.html?id=50">
+<div class="image"><img alt="Equinox" src="flyer-museum-51.jpg"/></div>
+<div class="body"><h3>Equinox</h3><p>Event flyer</p>
+<span class="pill gold">TBC</span><span class="pill">Equinox</span></div></a><a class="card flyer-card" data-promoter="Unknown" data-year="TBC" href="flyer-record.html?id=51">
+<div class="image"><img alt="Rave Event" src="flyer-museum-52.jpg"/></div>
+<div class="body"><h3>Rave Event</h3><p>Regional flyer</p>
+<span class="pill gold">TBC</span><span class="pill">Unknown</span></div></a><a class="card flyer-card" data-promoter="Unknown" data-year="TBC" href="flyer-record.html?id=52">
+<div class="image"><img alt="Rave Event" src="flyer-museum-53.jpg"/></div>
+<div class="body"><h3>Rave Event</h3><p>Regional flyer</p>
+<span class="pill gold">TBC</span><span class="pill">Unknown</span></div></a><a class="card flyer-card" data-promoter="Unknown" data-year="TBC" href="flyer-record.html?id=53">
+<div class="image"><img alt="Rave Event" src="flyer-museum-54.jpg"/></div>
+<div class="body"><h3>Rave Event</h3><p>Regional flyer</p>
+<span class="pill gold">TBC</span><span class="pill">Unknown</span></div></a><a class="card flyer-card" data-promoter="Ministry of Sound" data-year="TBC" href="flyer-record.html?id=54">
+<div class="image"><img alt="Ministry of Sound" src="flyer-museum-55.jpg"/></div>
+<div class="body"><h3>Ministry of Sound</h3><p>Location / invitation</p>
+<span class="pill gold">TBC</span><span class="pill">Ministry of Sound</span></div></a></div></section>
+</main><script>
+const buttons=[...document.querySelectorAll('.filter')];
+const cards=[...document.querySelectorAll('.flyer-card')];
+buttons.forEach(b=>b.addEventListener('click',()=>{
+ buttons.forEach(x=>x.classList.remove('active')); b.classList.add('active');
+ const y=b.dataset.year;
+ cards.forEach(c=>c.style.display=(y==='all'||c.dataset.year===y)?'block':'none');
+}));
+</script><script defer="" src="museum-header.js"></script><script src="site-shell-v4.js"></script>
+</body></html>

@@ -1,0 +1,122 @@
+{
+  "build": "4.0 Unified Museum Shell",
+  "sourceFiles": 997,
+  "outputFiles": 999,
+  "corePagesModified": [
+    "index.html",
+    "flyers.html",
+    "events.html",
+    "djs.html",
+    "venues.html",
+    "promoters.html",
+    "packs.html",
+    "search.html",
+    "stories.html",
+    "radio.html",
+    "artist.html",
+    "event.html",
+    "flyer-record.html",
+    "people.html"
+  ],
+  "corePagesMissing": [],
+  "sharedFilesAdded": [
+    "site-shell-v4.css",
+    "site-shell-v4.js"
+  ],
+  "corePageStatus": [
+    {
+      "page": "index.html",
+      "sharedShellCSS": true,
+      "sharedShellJS": true,
+      "hasLogo": true
+    },
+    {
+      "page": "flyers.html",
+      "sharedShellCSS": true,
+      "sharedShellJS": true,
+      "hasLogo": false
+    },
+    {
+      "page": "events.html",
+      "sharedShellCSS": true,
+      "sharedShellJS": true,
+      "hasLogo": false
+    },
+    {
+      "page": "djs.html",
+      "sharedShellCSS": true,
+      "sharedShellJS": true,
+      "hasLogo": true
+    },
+    {
+      "page": "venues.html",
+      "sharedShellCSS": false,
+      "sharedShellJS": false,
+      "hasLogo": true
+    },
+    {
+      "page": "promoters.html",
+      "sharedShellCSS": false,
+      "sharedShellJS": false,
+      "hasLogo": true
+    },
+    {
+      "page": "packs.html",
+      "sharedShellCSS": true,
+      "sharedShellJS": true,
+      "hasLogo": true
+    },
+    {
+      "page": "search.html",
+      "sharedShellCSS": true,
+      "sharedShellJS": true,
+      "hasLogo": true
+    },
+    {
+      "page": "stories.html",
+      "sharedShellCSS": true,
+      "sharedShellJS": true,
+      "hasLogo": false
+    },
+    {
+      "page": "radio.html",
+      "sharedShellCSS": true,
+      "sharedShellJS": true,
+      "hasLogo": false
+    },
+    {
+      "page": "artist.html",
+      "sharedShellCSS": true,
+      "sharedShellJS": true,
+      "hasLogo": true
+    },
+    {
+      "page": "event.html",
+      "sharedShellCSS": true,
+      "sharedShellJS": true,
+      "hasLogo": true
+    },
+    {
+      "page": "flyer-record.html",
+      "sharedShellCSS": false,
+      "sharedShellJS": false,
+      "hasLogo": true
+    },
+    {
+      "page": "people.html",
+      "sharedShellCSS": true,
+      "sharedShellJS": true,
+      "hasLogo": true
+    }
+  ],
+  "coreBrokenLocalReferences": [],
+  "designRules": [
+    "One black/yellow/white museum palette",
+    "One sticky header system",
+    "One navigation behaviour on desktop and mobile",
+    "Homepage branding retained",
+    "Page-specific content layouts preserved",
+    "Shared focus, button, form and panel styling",
+    "Shared warehouse atmosphere across non-home pages"
+  ]
+}
